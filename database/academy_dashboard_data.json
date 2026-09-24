@@ -2,6 +2,783 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "status": "connected_and_active",
-  "initialSyncThai": "ระบบเชื่อมต่อคลาวด์ GitHub สำเร็จเรียบร้อย"
+  "exportedAt": "2026-09-24T13:44:42.827Z",
+  "formattedTimeThai": "24/9/2569 20:44:42",
+  "exportedBy": {
+    "id": "user-admin-1",
+    "fullName": "ผู้ดูแลระบบ (เจ้าของสถาบัน)",
+    "role": "admin"
+  },
+  "summary": {
+    "totalUsers": 1,
+    "totalCourses": 0,
+    "totalSchedules": 0,
+    "totalBills": 0,
+    "totalAttendance": 0,
+    "totalOnlineClassrooms": 0,
+    "totalRevenuePaid": 0,
+    "rolesCount": 7
+  },
+  "database": {
+    "users": [
+      {
+        "id": "user-admin-1",
+        "username": "admin",
+        "password": "admin123",
+        "role": "admin",
+        "fullName": "ผู้ดูแลระบบ (เจ้าของสถาบัน)",
+        "nickname": "แอดมิน",
+        "email": "spc.learningcenter.studio@gmail.com",
+        "phone": "081-000-0000",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+      }
+    ],
+    "roles": [
+      {
+        "id": "admin",
+        "name": "ผู้ดูแลระบบ (เจ้าของสถาบัน)",
+        "nameEn": "Academy Owner / Super Admin",
+        "description": "มีสิทธิ์สูงสุดในทุกระบบ เข้าถึง ดู และบันทึก/แก้ไขได้ทุกแท็บและทุกฟังก์ชั่น",
+        "badgeColor": "bg-[#FAE0D8] text-[#5C271F] border-[#E8C2B7]",
+        "iconName": "Shield",
+        "isSystem": true,
+        "permissions": {
+          "overview": {
+            "canView": true,
+            "canEdit": true
+          },
+          "courses": {
+            "canView": true,
+            "canEdit": true
+          },
+          "users": {
+            "canView": true,
+            "canEdit": true
+          },
+          "classrooms": {
+            "canView": true,
+            "canEdit": true
+          },
+          "online_classroom": {
+            "canView": true,
+            "canEdit": true
+          },
+          "daily_schedule": {
+            "canView": true,
+            "canEdit": true
+          },
+          "payroll": {
+            "canView": true,
+            "canEdit": true
+          },
+          "calendar": {
+            "canView": true,
+            "canEdit": true
+          },
+          "marketing": {
+            "canView": true,
+            "canEdit": true
+          },
+          "content": {
+            "canView": true,
+            "canEdit": true
+          },
+          "finance": {
+            "canView": true,
+            "canEdit": true
+          },
+          "document_control": {
+            "canView": true,
+            "canEdit": true
+          },
+          "attendance": {
+            "canView": true,
+            "canEdit": true
+          },
+          "evaluations": {
+            "canView": true,
+            "canEdit": true
+          },
+          "chat": {
+            "canView": true,
+            "canEdit": true
+          },
+          "catalog": {
+            "canView": true,
+            "canEdit": true
+          }
+        }
+      },
+      {
+        "id": "academic",
+        "name": "ฝ่ายวิชาการ (Academic Staff)",
+        "nameEn": "Academic Director / Curriculum Manager",
+        "description": "ดูแลหลักสูตร คอร์สเรียน ตารางสอน ห้องเรียนออนไลน์ การเช็คชื่อ และผลประเมิน",
+        "badgeColor": "bg-[#F0F4BF] text-[#444B12] border-[#D7DC94]",
+        "iconName": "GraduationCap",
+        "isSystem": false,
+        "permissions": {
+          "overview": {
+            "canView": true,
+            "canEdit": false
+          },
+          "courses": {
+            "canView": true,
+            "canEdit": true
+          },
+          "users": {
+            "canView": true,
+            "canEdit": false
+          },
+          "classrooms": {
+            "canView": true,
+            "canEdit": true
+          },
+          "online_classroom": {
+            "canView": true,
+            "canEdit": true
+          },
+          "daily_schedule": {
+            "canView": true,
+            "canEdit": true
+          },
+          "payroll": {
+            "canView": false,
+            "canEdit": false
+          },
+          "calendar": {
+            "canView": true,
+            "canEdit": true
+          },
+          "marketing": {
+            "canView": false,
+            "canEdit": false
+          },
+          "content": {
+            "canView": true,
+            "canEdit": true
+          },
+          "finance": {
+            "canView": false,
+            "canEdit": false
+          },
+          "document_control": {
+            "canView": false,
+            "canEdit": false
+          },
+          "attendance": {
+            "canView": true,
+            "canEdit": true
+          },
+          "evaluations": {
+            "canView": true,
+            "canEdit": true
+          },
+          "chat": {
+            "canView": true,
+            "canEdit": true
+          },
+          "catalog": {
+            "canView": true,
+            "canEdit": true
+          }
+        }
+      },
+      {
+        "id": "finance",
+        "name": "ฝ่ายการเงิน & บัญชี (Finance Staff)",
+        "nameEn": "Finance & Accounting Officer",
+        "description": "จัดการบิลค่าเล่าเรียน ตรวจสอบสลิป คำนวณค่าสอนติวเตอร์ และควบคุมเอกสารทางการเงิน",
+        "badgeColor": "bg-[#DFE1BE] text-[#2A3B18] border-[#BDC298]",
+        "iconName": "DollarSign",
+        "isSystem": false,
+        "permissions": {
+          "overview": {
+            "canView": true,
+            "canEdit": false
+          },
+          "courses": {
+            "canView": true,
+            "canEdit": false
+          },
+          "users": {
+            "canView": true,
+            "canEdit": false
+          },
+          "classrooms": {
+            "canView": false,
+            "canEdit": false
+          },
+          "online_classroom": {
+            "canView": false,
+            "canEdit": false
+          },
+          "daily_schedule": {
+            "canView": false,
+            "canEdit": false
+          },
+          "payroll": {
+            "canView": true,
+            "canEdit": true
+          },
+          "calendar": {
+            "canView": false,
+            "canEdit": false
+          },
+          "marketing": {
+            "canView": false,
+            "canEdit": false
+          },
+          "content": {
+            "canView": false,
+            "canEdit": false
+          },
+          "finance": {
+            "canView": true,
+            "canEdit": true
+          },
+          "document_control": {
+            "canView": true,
+            "canEdit": true
+          },
+          "attendance": {
+            "canView": false,
+            "canEdit": false
+          },
+          "evaluations": {
+            "canView": false,
+            "canEdit": false
+          },
+          "chat": {
+            "canView": true,
+            "canEdit": true
+          },
+          "catalog": {
+            "canView": true,
+            "canEdit": false
+          }
+        }
+      },
+      {
+        "id": "registrar",
+        "name": "ฝ่ายทะเบียน & ประชาสัมพันธ์ (Registrar Staff)",
+        "nameEn": "Registrar & Admissions Staff",
+        "description": "รับสมัครนักเรียน จัดการบัญชีผู้ใช้ การตลาด คูปองโปรโมชั่น และประสานงานผู้ปกครอง",
+        "badgeColor": "bg-[#FFF5ED] text-[#5C271F] border-[#FAE0D8]",
+        "iconName": "Users",
+        "isSystem": false,
+        "permissions": {
+          "overview": {
+            "canView": true,
+            "canEdit": false
+          },
+          "courses": {
+            "canView": true,
+            "canEdit": false
+          },
+          "users": {
+            "canView": true,
+            "canEdit": true
+          },
+          "classrooms": {
+            "canView": true,
+            "canEdit": false
+          },
+          "online_classroom": {
+            "canView": false,
+            "canEdit": false
+          },
+          "daily_schedule": {
+            "canView": true,
+            "canEdit": false
+          },
+          "payroll": {
+            "canView": false,
+            "canEdit": false
+          },
+          "calendar": {
+            "canView": true,
+            "canEdit": true
+          },
+          "marketing": {
+            "canView": true,
+            "canEdit": true
+          },
+          "content": {
+            "canView": true,
+            "canEdit": true
+          },
+          "finance": {
+            "canView": false,
+            "canEdit": false
+          },
+          "document_control": {
+            "canView": false,
+            "canEdit": false
+          },
+          "attendance": {
+            "canView": true,
+            "canEdit": false
+          },
+          "evaluations": {
+            "canView": true,
+            "canEdit": false
+          },
+          "chat": {
+            "canView": true,
+            "canEdit": true
+          },
+          "catalog": {
+            "canView": true,
+            "canEdit": true
+          }
+        }
+      },
+      {
+        "id": "tutor",
+        "name": "ครูผู้สอน (Tutor / Instructor)",
+        "nameEn": "Tutor / Teaching Faculty",
+        "description": "เช็คชื่อด้วยภาพถ่าย สอนคลาสออนไลน์ ตรวจตารางสอน ดูค่าสอน และพูดคุยกับผู้เรียน",
+        "badgeColor": "bg-[#F0F4BF] text-[#444B12] border-[#D7DC94]",
+        "iconName": "GraduationCap",
+        "isSystem": true,
+        "permissions": {
+          "overview": {
+            "canView": false,
+            "canEdit": false
+          },
+          "courses": {
+            "canView": true,
+            "canEdit": false
+          },
+          "users": {
+            "canView": false,
+            "canEdit": false
+          },
+          "classrooms": {
+            "canView": true,
+            "canEdit": false
+          },
+          "online_classroom": {
+            "canView": true,
+            "canEdit": true
+          },
+          "daily_schedule": {
+            "canView": true,
+            "canEdit": false
+          },
+          "payroll": {
+            "canView": true,
+            "canEdit": false
+          },
+          "calendar": {
+            "canView": true,
+            "canEdit": false
+          },
+          "marketing": {
+            "canView": false,
+            "canEdit": false
+          },
+          "content": {
+            "canView": false,
+            "canEdit": false
+          },
+          "finance": {
+            "canView": false,
+            "canEdit": false
+          },
+          "document_control": {
+            "canView": false,
+            "canEdit": false
+          },
+          "attendance": {
+            "canView": true,
+            "canEdit": true
+          },
+          "evaluations": {
+            "canView": true,
+            "canEdit": false
+          },
+          "chat": {
+            "canView": true,
+            "canEdit": true
+          },
+          "catalog": {
+            "canView": true,
+            "canEdit": false
+          }
+        }
+      },
+      {
+        "id": "student",
+        "name": "นักเรียน (Student)",
+        "nameEn": "Enrolled Student",
+        "description": "ดูตารางเรียน เข้าห้องเรียนออนไลน์ คลังคอร์ส ประเมินการสอน และแชทถามครู",
+        "badgeColor": "bg-[#DFE1BE] text-[#2A3B18] border-[#BDC298]",
+        "iconName": "Users",
+        "isSystem": true,
+        "permissions": {
+          "overview": {
+            "canView": false,
+            "canEdit": false
+          },
+          "courses": {
+            "canView": false,
+            "canEdit": false
+          },
+          "users": {
+            "canView": false,
+            "canEdit": false
+          },
+          "classrooms": {
+            "canView": false,
+            "canEdit": false
+          },
+          "online_classroom": {
+            "canView": true,
+            "canEdit": false
+          },
+          "daily_schedule": {
+            "canView": false,
+            "canEdit": false
+          },
+          "payroll": {
+            "canView": false,
+            "canEdit": false
+          },
+          "calendar": {
+            "canView": true,
+            "canEdit": false
+          },
+          "marketing": {
+            "canView": false,
+            "canEdit": false
+          },
+          "content": {
+            "canView": false,
+            "canEdit": false
+          },
+          "finance": {
+            "canView": false,
+            "canEdit": false
+          },
+          "document_control": {
+            "canView": false,
+            "canEdit": false
+          },
+          "attendance": {
+            "canView": false,
+            "canEdit": false
+          },
+          "evaluations": {
+            "canView": true,
+            "canEdit": true
+          },
+          "chat": {
+            "canView": true,
+            "canEdit": true
+          },
+          "catalog": {
+            "canView": true,
+            "canEdit": true
+          }
+        }
+      },
+      {
+        "id": "parent",
+        "name": "ผู้ปกครอง (Parent)",
+        "nameEn": "Parent / Guardian",
+        "description": "ติดตามการเข้าเรียนของลูก บิลค่าเรียน คลังคอร์ส และติดต่อสื่อสารกับสถาบัน",
+        "badgeColor": "bg-[#FFF5ED] text-[#5C271F] border-[#FAE0D8]",
+        "iconName": "Heart",
+        "isSystem": true,
+        "permissions": {
+          "overview": {
+            "canView": false,
+            "canEdit": false
+          },
+          "courses": {
+            "canView": false,
+            "canEdit": false
+          },
+          "users": {
+            "canView": false,
+            "canEdit": false
+          },
+          "classrooms": {
+            "canView": false,
+            "canEdit": false
+          },
+          "online_classroom": {
+            "canView": false,
+            "canEdit": false
+          },
+          "daily_schedule": {
+            "canView": false,
+            "canEdit": false
+          },
+          "payroll": {
+            "canView": false,
+            "canEdit": false
+          },
+          "calendar": {
+            "canView": true,
+            "canEdit": false
+          },
+          "marketing": {
+            "canView": false,
+            "canEdit": false
+          },
+          "content": {
+            "canView": false,
+            "canEdit": false
+          },
+          "finance": {
+            "canView": true,
+            "canEdit": false
+          },
+          "document_control": {
+            "canView": false,
+            "canEdit": false
+          },
+          "attendance": {
+            "canView": true,
+            "canEdit": false
+          },
+          "evaluations": {
+            "canView": false,
+            "canEdit": false
+          },
+          "chat": {
+            "canView": true,
+            "canEdit": true
+          },
+          "catalog": {
+            "canView": true,
+            "canEdit": true
+          }
+        }
+      }
+    ],
+    "courses": [],
+    "subjects": [
+      {
+        "id": "subj-math",
+        "name": "คณิตศาสตร์",
+        "code": "MATH",
+        "description": "A-Level คณิต 1, คณิต 2, แคลคูลัส, เลขยกกำลัง และสถิติ",
+        "color": "amber",
+        "iconName": "Calculator"
+      },
+      {
+        "id": "subj-eng",
+        "name": "ภาษาอังกฤษ",
+        "code": "ENG",
+        "description": "TGAT 1, IELTS, สนทนาและไวยากรณ์เชิงลึก",
+        "color": "sky",
+        "iconName": "Languages"
+      },
+      {
+        "id": "subj-phy",
+        "name": "ฟิสิกส์",
+        "code": "PHY",
+        "description": "กลศาสตร์ คลื่น ไฟฟ้า ฟิสิกส์ประยุกต์ TPAT 3",
+        "color": "violet",
+        "iconName": "Zap"
+      },
+      {
+        "id": "subj-chem",
+        "name": "เคมี",
+        "code": "CHEM",
+        "description": "เคมีคำนวณ ตารางธาตุ อินทรีย์เคมี และเตรียมโอลิมปิก",
+        "color": "emerald",
+        "iconName": "FlaskConical"
+      },
+      {
+        "id": "subj-bio",
+        "name": "ชีววิทยา",
+        "code": "BIO",
+        "description": "กายวิภาคศาสตร์ พันธุศาสตร์ เซลล์ และระบบนิเวศ",
+        "color": "teal",
+        "iconName": "Dna"
+      },
+      {
+        "id": "subj-tech",
+        "name": "คอมพิวเตอร์และ AI",
+        "code": "TECH",
+        "description": "Python Programming, AI Prompts, วิทยาการคำนวณ",
+        "color": "amber",
+        "iconName": "Cpu"
+      },
+      {
+        "id": "subj-thai",
+        "name": "ภาษาไทย",
+        "code": "THAI",
+        "description": "หลักภาษาไทย วรรณคดี การอ่านจับใจความ A-Level",
+        "color": "rose",
+        "iconName": "BookMarked"
+      }
+    ],
+    "schedules": [],
+    "classrooms": [
+      {
+        "id": "room-301",
+        "name": "ห้อง 301 ห้องเรียนอัจฉริยะ (Smart Classroom)",
+        "code": "RM-301",
+        "building": "อาคารเรียนหลัก",
+        "floor": 3,
+        "type": "lecture",
+        "capacity": 15,
+        "facilities": [
+          "Smart TV 65\" 4K",
+          "ระบบกล้อง Hybrid Tracking Camera",
+          "ไมโครโฟนไร้สาย Wireless Mic",
+          "เครื่องปรับอากาศ Inverter",
+          "ไวท์บอร์ดกระจกเต็มผนัง"
+        ],
+        "status": "active",
+        "description": "ห้องเรียนกวดวิชาขนาดกลาง เหมาะสำหรับคอร์สติวสดและบรรยายกลุ่มย่อย",
+        "imageUrl": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&auto=format&fit=crop&q=80"
+      },
+      {
+        "id": "room-lab1",
+        "name": "ห้องปฏิบัติการวิทยาศาสตร์ (Science & Chem Lab)",
+        "code": "LAB-01",
+        "building": "อาคารปฏิบัติการวิทยาศาสตร์",
+        "floor": 1,
+        "type": "science_lab",
+        "capacity": 12,
+        "facilities": [
+          "ชุดเครื่องแก้วทดลอง & บิวเรตต์",
+          "Interactive Screen",
+          "ตู้เก็บอุปกรณ์นิรภัย"
+        ],
+        "status": "active",
+        "description": "ห้องปฏิบัติการวิทยาศาสตร์พร้อมระบบความปลอดภัย เหมาะสำหรับวิชาเคมีและการทดลอง",
+        "imageUrl": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600&auto=format&fit=crop&q=80"
+      },
+      {
+        "id": "room-virtual-1",
+        "name": "ห้องเรียนออนไลน์เสมือน (Virtual Zoom Studio 1)",
+        "code": "VIRTUAL-01",
+        "building": "คลาวด์สตรีมมิ่งเซ็นเตอร์",
+        "floor": 0,
+        "type": "online_virtual",
+        "capacity": 100,
+        "facilities": [
+          "Zoom Education License",
+          "Auto Cloud Record"
+        ],
+        "status": "active",
+        "virtualMeetingUrl": "https://zoom.us",
+        "description": "ห้องเรียนออนไลน์สดเสมือนจริง",
+        "imageUrl": "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=600&auto=format&fit=crop&q=80"
+      }
+    ],
+    "attendanceRecords": [],
+    "reports": [],
+    "bills": [],
+    "bookings": [],
+    "evaluations": [],
+    "tutorEarnings": [],
+    "teachingHourLogs": [],
+    "academyEvents": [],
+    "compensationTiers": [
+      {
+        "tier": "Junior",
+        "label": "Junior Tutor (ระดับเริ่มต้น)",
+        "minRate": 150,
+        "maxRate": 500,
+        "experienceDesc": "ประสบการณ์สอน 0-3 ปี (หรือผู้ช่วยสอน/นิสิตนักศึกษา)",
+        "qualificationDesc": "วุฒิปริญญาตรี หรือกำลังศึกษา มีพื้นฐานวิชาการดี ผ่านเกณฑ์ทดสอบการสอนเบื้องต้น",
+        "notes": "อัตราขั้นต่ำเริ่มต้น 150 บาท/ชม. เหมาะสำหรับคอร์สปรับพื้นฐาน สอนการบ้าน และทบทวนบทเรียนระดับต้น",
+        "badgeColor": "bg-[#F0F4BF] text-[#4D4B16] border-[#D7DC94]"
+      },
+      {
+        "tier": "Senior",
+        "label": "Senior Tutor (ชำนาญการ)",
+        "minRate": 500,
+        "maxRate": 700,
+        "experienceDesc": "ประสบการณ์สอน 4-7 ปี",
+        "qualificationDesc": "วุฒิปริญญาโท หรือเกียรตินิยม มีผลประเมินการสอนสูง สื่อสารเข้าใจง่าย",
+        "notes": "หลักสูตรกระชับ เจาะลึกข้อสอบกลางภาค/ปลายภาค เทคนิคจำเร็ว",
+        "badgeColor": "bg-[#DFE1BE] text-[#2A3B18] border-[#BDC298]"
+      },
+      {
+        "tier": "Master",
+        "label": "Master Tutor (ผู้เชี่ยวชาญ)",
+        "minRate": 700,
+        "maxRate": 900,
+        "experienceDesc": "ประสบการณ์สอน 8+ ปี",
+        "qualificationDesc": "เกียรตินิยมอันดับ 1 / ติวสอบแข่งขันระดับประเทศ มีสถิตินักเรียนสอบติดสูง",
+        "notes": "เน้นติวเข้ม A-Level, TGAT/TPAT, โควตา และเตรียมสอบเข้า รร. ดัง",
+        "badgeColor": "bg-[#FAE0D8] text-[#5C271F] border-[#F2C8BC]"
+      },
+      {
+        "tier": "Expert",
+        "label": "Expert / Professor (ระดับศาสตราจารย์/กูรูวิชาการ)",
+        "minRate": 900,
+        "maxRate": 1500,
+        "experienceDesc": "ประสบการณ์สอน 12+ ปี",
+        "qualificationDesc": "วุฒิปริญญาเอก หรืออาจารย์มหาวิทยาลัย ผู้เขียนตำราเรียน ข้อสอบระดับชาติ",
+        "notes": "คอร์สขั้นสูง ติวเตรียมแพทย์ โอลิมปิกวิชาการ สอวน. หรือคอร์ส VIP 1-on-1",
+        "badgeColor": "bg-[#EBD8CB] text-[#3D332A] border-[#D6C2B4]"
+      }
+    ],
+    "chatMessages": [],
+    "coupons": [],
+    "campaigns": [],
+    "leads": [],
+    "referrals": [],
+    "contentPlans": [],
+    "monthlyGoals": [],
+    "goalReviews": [],
+    "academyDocSettings": {
+      "academyNameTh": "สถาบันกวดวิชา TutorHub Academy",
+      "academyNameEn": "TutorHub Academy & Learning Center",
+      "taxId": "0-1055-69012-34-5",
+      "branch": "สำนักงานใหญ่ (สาขาพญาไท)",
+      "address": "888 อาคารวิทยปัญญา ชั้น 4 ถนนพญาไท แขวงทุ่งพญาไท เขตราชเทวี กรุงเทพมหานคร 10400",
+      "phone": "02-123-4567, 081-456-7890",
+      "email": "spc.learningcenter.studio@gmail.com",
+      "website": "https://tutorhub.academy",
+      "logoUrl": "",
+      "logoType": "preset_emblem",
+      "logoShape": "rounded",
+      "showLogoInHeader": true,
+      "signerName": "ผู้บริหารสถาบัน",
+      "signerPosition": "ผู้อำนวยการสถาบันและฝ่ายวิชาการ",
+      "signatureType": "cursive",
+      "signatureImageUrl": "",
+      "signatureCursiveText": "TutorHub Director",
+      "signatureCursiveFont": "signature-brush",
+      "showOfficialSeal": true,
+      "sealColor": "red",
+      "sealTextTop": "★ TUTORHUB ACADEMY ★",
+      "sealTextBottom": "OFFICIAL AUDITED",
+      "sealTextCenter": "PAID / ชำระแล้ว",
+      "tuitionReceipt": {
+        "titleTh": "ใบเสร็จรับเงิน / ใบกำกับภาษีอย่างย่อ",
+        "titleEn": "Tuition Fee Official Receipt & Tax Invoice (ABB)",
+        "prefix": "RCP-",
+        "footerNotes": "🔒 เอกสารอิเล็กทรอนิกส์นี้ออกโดยระบบอัตโนมัติ มีผลสมบูรณ์ตาม พ.ร.บ. ว่าด้วยธุรกรรมทางอิเล็กทรอนิกส์ พ.ศ. 2544",
+        "includeQrVerification": true,
+        "includeTermField": true,
+        "autoIssueOnParentPaid": true
+      },
+      "tutorVoucher": {
+        "titleTh": "ใบสำคัญรับเงิน / ใบสำคัญจ่ายค่าตอบแทนครูผู้สอน",
+        "titleEn": "Official Tutor Compensation Payment Voucher",
+        "prefix": "PAY-",
+        "payerSignerTitle": "ผู้อำนวยการสถาบัน / ผู้จ่ายเงิน",
+        "receiverSignerTitle": "ครูผู้สอน / ผู้รับเงิน",
+        "withholdingTaxRate": 0,
+        "footerNotes": "เอกสารฉบับนี้ใช้เป็นหลักฐานการจ่ายเงินค่าตอบแทนวิทยากร/ครูผู้สอนตามประมวลรัษฎากร ได้รับการตรวจสอบชั่วโมงสอนจริงครบถ้วน",
+        "includeClassDetails": true,
+        "autoIssueOnPayoutApproved": true
+      }
+    },
+    "onlineClassrooms": [],
+    "classroomDeletionLogs": []
+  }
 }
