@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-09-30T14:22:15.565Z",
-  "formattedTimeThai": "30/9/2569 21:22:15",
+  "exportedAt": "2026-09-30T14:26:12.872Z",
+  "formattedTimeThai": "30/9/2569 21:26:12",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ผู้ดูแลระบบ (เจ้าของสถาบัน)",
@@ -704,61 +704,7 @@
       }
     ],
     "schedules": [],
-    "classrooms": [
-      {
-        "id": "room-301",
-        "name": "ห้อง 301 ห้องเรียนอัจฉริยะ (Smart Classroom)",
-        "code": "RM-301",
-        "building": "อาคารเรียนหลัก",
-        "floor": 3,
-        "type": "lecture",
-        "capacity": 15,
-        "facilities": [
-          "Smart TV 65\" 4K",
-          "ระบบกล้อง Hybrid Tracking Camera",
-          "ไมโครโฟนไร้สาย Wireless Mic",
-          "เครื่องปรับอากาศ Inverter",
-          "ไวท์บอร์ดกระจกเต็มผนัง"
-        ],
-        "status": "active",
-        "description": "ห้องเรียนกวดวิชาขนาดกลาง เหมาะสำหรับคอร์สติวสดและบรรยายกลุ่มย่อย",
-        "imageUrl": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&auto=format&fit=crop&q=80"
-      },
-      {
-        "id": "room-lab1",
-        "name": "ห้องปฏิบัติการวิทยาศาสตร์ (Science & Chem Lab)",
-        "code": "LAB-01",
-        "building": "อาคารปฏิบัติการวิทยาศาสตร์",
-        "floor": 1,
-        "type": "science_lab",
-        "capacity": 12,
-        "facilities": [
-          "ชุดเครื่องแก้วทดลอง & บิวเรตต์",
-          "Interactive Screen",
-          "ตู้เก็บอุปกรณ์นิรภัย"
-        ],
-        "status": "active",
-        "description": "ห้องปฏิบัติการวิทยาศาสตร์พร้อมระบบความปลอดภัย เหมาะสำหรับวิชาเคมีและการทดลอง",
-        "imageUrl": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600&auto=format&fit=crop&q=80"
-      },
-      {
-        "id": "room-virtual-1",
-        "name": "ห้องเรียนออนไลน์เสมือน (Virtual Zoom Studio 1)",
-        "code": "VIRTUAL-01",
-        "building": "คลาวด์สตรีมมิ่งเซ็นเตอร์",
-        "floor": 0,
-        "type": "online_virtual",
-        "capacity": 100,
-        "facilities": [
-          "Zoom Education License",
-          "Auto Cloud Record"
-        ],
-        "status": "active",
-        "virtualMeetingUrl": "https://zoom.us",
-        "description": "ห้องเรียนออนไลน์สดเสมือนจริง",
-        "imageUrl": "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=600&auto=format&fit=crop&q=80"
-      }
-    ],
+    "classrooms": [],
     "attendanceRecords": [],
     "reports": [],
     "bills": [],
