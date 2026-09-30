@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-09-24T13:44:42.827Z",
-  "formattedTimeThai": "24/9/2569 20:44:42",
+  "exportedAt": "2026-09-30T12:39:36.691Z",
+  "formattedTimeThai": "30/9/2569 19:39:36",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ผู้ดูแลระบบ (เจ้าของสถาบัน)",
@@ -55,6 +55,10 @@
             "canView": true,
             "canEdit": true
           },
+          "rbac_permissions": {
+            "canView": true,
+            "canEdit": true
+          },
           "classrooms": {
             "canView": true,
             "canEdit": true
@@ -99,11 +103,19 @@
             "canView": true,
             "canEdit": true
           },
+          "one_on_one": {
+            "canView": true,
+            "canEdit": true
+          },
           "chat": {
             "canView": true,
             "canEdit": true
           },
           "catalog": {
+            "canView": true,
+            "canEdit": true
+          },
+          "github_sync": {
             "canView": true,
             "canEdit": true
           }
@@ -130,6 +142,10 @@
             "canView": true,
             "canEdit": false
           },
+          "rbac_permissions": {
+            "canView": false,
+            "canEdit": false
+          },
           "classrooms": {
             "canView": true,
             "canEdit": true
@@ -174,6 +190,10 @@
             "canView": true,
             "canEdit": true
           },
+          "one_on_one": {
+            "canView": false,
+            "canEdit": false
+          },
           "chat": {
             "canView": true,
             "canEdit": true
@@ -181,6 +201,10 @@
           "catalog": {
             "canView": true,
             "canEdit": true
+          },
+          "github_sync": {
+            "canView": false,
+            "canEdit": false
           }
         }
       },
@@ -205,6 +229,10 @@
             "canView": true,
             "canEdit": false
           },
+          "rbac_permissions": {
+            "canView": false,
+            "canEdit": false
+          },
           "classrooms": {
             "canView": false,
             "canEdit": false
@@ -249,12 +277,20 @@
             "canView": false,
             "canEdit": false
           },
+          "one_on_one": {
+            "canView": false,
+            "canEdit": false
+          },
           "chat": {
             "canView": true,
             "canEdit": true
           },
           "catalog": {
             "canView": true,
+            "canEdit": false
+          },
+          "github_sync": {
+            "canView": false,
             "canEdit": false
           }
         }
@@ -280,6 +316,10 @@
             "canView": true,
             "canEdit": true
           },
+          "rbac_permissions": {
+            "canView": false,
+            "canEdit": false
+          },
           "classrooms": {
             "canView": true,
             "canEdit": false
@@ -324,6 +364,10 @@
             "canView": true,
             "canEdit": false
           },
+          "one_on_one": {
+            "canView": false,
+            "canEdit": false
+          },
           "chat": {
             "canView": true,
             "canEdit": true
@@ -331,6 +375,10 @@
           "catalog": {
             "canView": true,
             "canEdit": true
+          },
+          "github_sync": {
+            "canView": false,
+            "canEdit": false
           }
         }
       },
@@ -355,6 +403,10 @@
             "canView": false,
             "canEdit": false
           },
+          "rbac_permissions": {
+            "canView": false,
+            "canEdit": false
+          },
           "classrooms": {
             "canView": true,
             "canEdit": false
@@ -399,12 +451,20 @@
             "canView": true,
             "canEdit": false
           },
+          "one_on_one": {
+            "canView": false,
+            "canEdit": false
+          },
           "chat": {
             "canView": true,
             "canEdit": true
           },
           "catalog": {
             "canView": true,
+            "canEdit": false
+          },
+          "github_sync": {
+            "canView": false,
             "canEdit": false
           }
         }
@@ -430,6 +490,10 @@
             "canView": false,
             "canEdit": false
           },
+          "rbac_permissions": {
+            "canView": false,
+            "canEdit": false
+          },
           "classrooms": {
             "canView": false,
             "canEdit": false
@@ -474,6 +538,10 @@
             "canView": true,
             "canEdit": true
           },
+          "one_on_one": {
+            "canView": false,
+            "canEdit": false
+          },
           "chat": {
             "canView": true,
             "canEdit": true
@@ -481,6 +549,10 @@
           "catalog": {
             "canView": true,
             "canEdit": true
+          },
+          "github_sync": {
+            "canView": false,
+            "canEdit": false
           }
         }
       },
@@ -505,6 +577,10 @@
             "canView": false,
             "canEdit": false
           },
+          "rbac_permissions": {
+            "canView": false,
+            "canEdit": false
+          },
           "classrooms": {
             "canView": false,
             "canEdit": false
@@ -549,6 +625,10 @@
             "canView": false,
             "canEdit": false
           },
+          "one_on_one": {
+            "canView": false,
+            "canEdit": false
+          },
           "chat": {
             "canView": true,
             "canEdit": true
@@ -556,6 +636,10 @@
           "catalog": {
             "canView": true,
             "canEdit": true
+          },
+          "github_sync": {
+            "canView": false,
+            "canEdit": false
           }
         }
       }
@@ -779,6 +863,7 @@
       }
     },
     "onlineClassrooms": [],
-    "classroomDeletionLogs": []
+    "classroomDeletionLogs": [],
+    "oneOnOneSessions": []
   }
 }
