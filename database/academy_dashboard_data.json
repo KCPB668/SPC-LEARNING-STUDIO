@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-09-30T14:42:01.052Z",
-  "formattedTimeThai": "30/9/2569 21:42:01",
+  "exportedAt": "2026-10-01T11:12:35.448Z",
+  "formattedTimeThai": "1/10/2569 18:12:35",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ผู้ดูแลระบบ (เจ้าของสถาบัน)",
@@ -864,6 +864,263 @@
     },
     "onlineClassrooms": [],
     "classroomDeletionLogs": [],
-    "oneOnOneSessions": []
+    "oneOnOneSessions": [
+      {
+        "id": "1on1-student-1",
+        "participantId": "user-student-1",
+        "participantName": "นักเรียน (เริ่มต้น)",
+        "participantNickname": "น้องเรียนดี",
+        "participantRole": "student",
+        "participantAvatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+        "executiveId": "user-admin-1",
+        "executiveName": "ผู้ดูแลระบบ (เจ้าของสถาบัน)",
+        "tutorId": "user-tutor-1",
+        "tutorName": "อาจารย์ผู้สอน (เริ่มต้น)",
+        "tutorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+        "subjectOrCourse": "คณิตศาสตร์ A-Level เข้มข้น & แคลคูลัส",
+        "topic": "แนะแนวการวางแผนอ่านหนังสือและตั้งเป้าหมายสอบเข้าคณะวิศวกรรมศาสตร์ (ครั้งที่ 2)",
+        "category": "academic_coaching",
+        "date": "2026-09-27",
+        "startTime": "16:30",
+        "endTime": "17:15",
+        "mode": "onsite",
+        "locationOrLink": "ห้องแนะแนววิชาการ 1",
+        "status": "follow_up",
+        "details": "พูดคุยตัวต่อตัวกับนักเรียนเพื่อติดตามความก้าวหน้าในวิชาคณิตศาสตร์และฟิสิกส์ นักเรียนทำโจทย์บทแคลคูลัส (ลิมิตและอนุพันธ์) ได้ดีขึ้นอย่างก้าวกระโดด แต่ยังกังวลเรื่องการบริหารเวลาทำข้อสอบประยุกต์ จึงร่วมกันจัดตารางฝึกทำโจทย์จับเวลาสัปดาห์ละ 3 วัน วันละ 1.5 ชั่วโมง",
+        "keyTakeaways": "1. ตั้งเป้าคะแนนทดสอบย่อยครั้งถัดไปไม่ต่ำกว่า 80%\n2. เน้นทบทวนบทการประยุกต์อนุพันธ์ (ค่าสูงสุด-ต่ำสุด) และอินทิเกรตเพิ่มเติม\n3. นัดติดตามผลคะแนนจำลองสอบอีกครั้งในอีก 2 สัปดาห์",
+        "tutorAdvice": "ครูขอชื่นชมความตั้งใจและการส่งการบ้านตรงเวลาของหนูมากครับ ตอนนี้พื้นฐานบทที่ 1-4 (เซต ฟังก์ชัน ลิมิต และอนุพันธ์พื้นฐาน) แม่นยำพร้อมสอบแล้ว คำแนะนำจากครูสำหรับสัปดาห์นี้คือ:\n1) เวลาเจอโจทย์ปัญหาค่าสูงสุด-ต่ำสุด (บทที่ 5) ให้วาดรูปประกอบและกำหนดตัวแปรสิ่งที่โจทย์ถามก่อนเสมอ\n2) ฝึกทำโจทย์จับเวลาข้อละไม่เกิน 3 นาที เพื่อลดความตื่นเต้นในห้องสอบจริง\n3) จดสูตรลัดอนุพันธ์ฟังก์ชันประกอบที่มักจำสลับกันไว้ในสมุดสรุปเล่มเล็กสำหรับทบทวนก่อนนอนวันละ 10 นาที",
+        "studentStrengths": "คำนวณพีชคณิตและหาอนุพันธ์พื้นฐานได้รวดเร็วมาก มีวินัยในการเข้าเรียนและกล้าซักถามจุดที่สงสัยทันที",
+        "nextSessionGoal": "เรียนจบบทที่ 5-6 (ประยุกต์อนุพันธ์และอินทิเกรต) ให้ครบ 100% และทำชุดข้อสอบ Mock Test ชุดที่ 1 ได้เกิน 80%",
+        "topicChecklist": [
+          {
+            "id": "chk-math-1",
+            "title": "บทที่ 1: เซต ตรรกศาสตร์ และระบบจำนวนจริงประยุกต์",
+            "subjectOrCourse": "คณิตศาสตร์ A-Level เข้มข้น",
+            "completed": true,
+            "completedAt": "2026-09-10",
+            "masteryLevel": "excellent",
+            "teacherNote": "ทำแบบทดสอบท้ายบทได้ 19/20 คะแนน แม่นยำมาก"
+          },
+          {
+            "id": "chk-math-2",
+            "title": "บทที่ 2: ความสัมพันธ์ ฟังก์ชัน และกราฟพาราโบลา",
+            "subjectOrCourse": "คณิตศาสตร์ A-Level เข้มข้น",
+            "completed": true,
+            "completedAt": "2026-09-15",
+            "masteryLevel": "excellent",
+            "teacherNote": "วิเคราะห์โดเมน-เรนจ์และเลื่อนกราฟได้คล่องแคล่ว"
+          },
+          {
+            "id": "chk-math-3",
+            "title": "บทที่ 3: ลิมิตและความต่อเนื่องของฟังก์ชัน (Limits & Continuity)",
+            "subjectOrCourse": "คณิตศาสตร์ A-Level เข้มข้น",
+            "completed": true,
+            "completedAt": "2026-09-21",
+            "masteryLevel": "good",
+            "teacherNote": "แก้โจทย์ลิมิต 0/0 ได้ดี ควรทบทวนลิมิตซ้าย-ขวาของฟังก์ชันขั้นบันไดเพิ่มเล็กน้อย"
+          },
+          {
+            "id": "chk-math-4",
+            "title": "บทที่ 4: อนุพันธ์ของฟังก์ชัน (Differentiation) & กฎลูกโซ่",
+            "subjectOrCourse": "คณิตศาสตร์ A-Level เข้มข้น",
+            "completed": true,
+            "completedAt": "2026-09-27",
+            "masteryLevel": "excellent",
+            "teacherNote": "ดิฟฟังก์ชันประกอบและหาความชันเส้นสัมผัสได้รวดเร็วถูกต้อง 100%"
+          },
+          {
+            "id": "chk-math-5",
+            "title": "บทที่ 5: การประยุกต์อนุพันธ์ (ค่าสูงสุด-ต่ำสุดสัมพัทธ์ & อัตราสัมพัทธ์)",
+            "subjectOrCourse": "คณิตศาสตร์ A-Level เข้มข้น",
+            "completed": false,
+            "masteryLevel": "needs_review",
+            "teacherNote": "กำลังเรียน — แนะนำให้ฝึกตีความโจทย์ปัญหาสร้างสมการฟังก์ชันเป้าหมายเพิ่ม"
+          },
+          {
+            "id": "chk-math-6",
+            "title": "บทที่ 6: ปริพันธ์จำกัดเขต (Integration) & การหาพื้นที่ใต้เส้นโค้ง",
+            "subjectOrCourse": "คณิตศาสตร์ A-Level เข้มข้น",
+            "completed": false,
+            "masteryLevel": "good",
+            "teacherNote": "หัวข้อถัดไปตามแผนการเรียนสัปดาห์หน้า"
+          }
+        ],
+        "actionItems": [
+          {
+            "id": "act-3",
+            "text": "ทำโจทย์ประยุกต์อนุพันธ์จับเวลาสัปดาห์ละ 3 ชุดแล้วส่งให้ครูตรวจ",
+            "assignee": "นักเรียน",
+            "completed": true
+          },
+          {
+            "id": "act-4",
+            "text": "ประสานครูผู้สอนจัดชุดโจทย์เสริมบทอินทิเกรตพื้นที่ใต้กราฟให้นักเรียน",
+            "assignee": "ผู้บริหาร",
+            "completed": true
+          }
+        ],
+        "followUpDate": "2026-10-10",
+        "privateNotes": "นักเรียนมีความตั้งใจดีมากแต่กดดันตัวเองสูง ต้องคอยให้กำลังใจควบคู่กับการแนะแนว",
+        "sentiment": "positive",
+        "createdAt": "2026-09-27T17:20:00.000Z"
+      },
+      {
+        "id": "1on1-student-2",
+        "participantId": "user-student-1",
+        "participantName": "นักเรียน (เริ่มต้น)",
+        "participantNickname": "น้องเรียนดี",
+        "participantRole": "student",
+        "participantAvatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+        "executiveId": "user-admin-1",
+        "executiveName": "ผู้ดูแลระบบ (เจ้าของสถาบัน)",
+        "tutorId": "user-tutor-1",
+        "tutorName": "อาจารย์ผู้สอน (เริ่มต้น)",
+        "tutorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+        "subjectOrCourse": "ฟิสิกส์กลศาสตร์ & TPAT3 ความถนัดวิศวกรรม",
+        "topic": "ปูพื้นฐานและติดตามความเข้าใจวิชาฟิสิกส์กลศาสตร์ & เทคนิควิเคราะห์โจทย์ (ครั้งที่ 1)",
+        "category": "goal_setting",
+        "date": "2026-09-20",
+        "startTime": "15:00",
+        "endTime": "15:45",
+        "mode": "online",
+        "locationOrLink": "ห้องแนะแนวออนไลน์ (Zoom Coaching Room)",
+        "status": "completed",
+        "details": "พูดคุยติดตามความก้าวหน้าการเรียนวิชาฟิสิกส์ช่วงครึ่งเทอมแรก นักเรียนสามารถทำความเข้าใจเรื่องการเคลื่อนที่แนวตรง กฎของนิวตัน และสมดุลกลได้ครบตามแผน พร้อมวางแนวทางฝึกโจทย์บทงานและพลังงานต่อ",
+        "keyTakeaways": "1. ผ่านเกณฑ์ทดสอบย่อยบทที่ 1-3 คะแนนเฉลี่ย 88%\n2. เพิ่มแบบฝึกหัดโจทย์รอกและพื้นเอียงที่มีแรงเสียดทาน",
+        "tutorAdvice": "การวาดแผนภาพวัตถุอิสระ (Free Body Diagram) ของหนูพัฒนาขึ้นชัดเจนมากครับ ทำให้ตั้งสมการ ΣF = ma และ ΣM = 0 ไม่หลงทิศทางแล้ว คำแนะนำจากครูในรอบนี้คือ เมื่อขึ้นบทที่ 4 เรื่องงานและพลังงาน ให้เช็คก่อนเสมอว่าในระบบมีแรงภายนอกหรือแรงเสียดทานเข้ามาเกี่ยวข้องหรือไม่ จะช่วยให้เลือกใช้สูตรอนุรักษ์พลังงานได้ถูกต้อง 100% ครับ",
+        "studentStrengths": "เข้าใจมโนทัศน์ทางฟิสิกส์ได้ดี วาดแผนภาพแรงชัดเจน และแปลงหน่วยคำนวณไม่ผิดพลาด",
+        "nextSessionGoal": "ทบทวนบทที่ 4 งานและพลังงานให้จบ และทำโจทย์ท้ายบทส่งครบ 15 ข้อ",
+        "topicChecklist": [
+          {
+            "id": "chk-phy-1",
+            "title": "บทที่ 1: การเคลื่อนที่แนวตรง และวิเคราะห์กราฟ s-t, v-t, a-t",
+            "subjectOrCourse": "ฟิสิกส์กลศาสตร์ & TPAT3 วิศวกรรม",
+            "completed": true,
+            "completedAt": "2026-09-08",
+            "masteryLevel": "excellent",
+            "teacherNote": "หาพื้นที่ใต้กราฟและความชันกราฟได้ครบทุกกรณี"
+          },
+          {
+            "id": "chk-phy-2",
+            "title": "บทที่ 2: กฎการเคลื่อนที่ของนิวตัน & แรงเสียดทานบนพื้นเอียง",
+            "subjectOrCourse": "ฟิสิกส์กลศาสตร์ & TPAT3 วิศวกรรม",
+            "completed": true,
+            "completedAt": "2026-09-14",
+            "masteryLevel": "excellent",
+            "teacherNote": "วาด Free Body Diagram แตกแรงได้แม่นยำมาก"
+          },
+          {
+            "id": "chk-phy-3",
+            "title": "บทที่ 3: สมดุลกล (สมดุลต่อการเลื่อนที่ และสมดุลต่อการหมุน/โมเมนต์)",
+            "subjectOrCourse": "ฟิสิกส์กลศาสตร์ & TPAT3 วิศวกรรม",
+            "completed": true,
+            "completedAt": "2026-09-20",
+            "masteryLevel": "good",
+            "teacherNote": "ทำโจทย์คานและบานพับได้ดีมาก ได้คะแนนควิซ 17/20"
+          },
+          {
+            "id": "chk-phy-4",
+            "title": "บทที่ 4: งานและพลังงาน (กฎอนุรักษ์พลังงานกล & พลังงานศักย์ยืดหยุ่น)",
+            "subjectOrCourse": "ฟิสิกส์กลศาสตร์ & TPAT3 วิศวกรรม",
+            "completed": false,
+            "masteryLevel": "needs_review",
+            "teacherNote": "กำลังเรียน — ระวังเรื่องงานเนื่องจากแรงเสียดทานบนทางโค้ง"
+          }
+        ],
+        "actionItems": [
+          {
+            "id": "act-st-2a",
+            "text": "สรุปแผนผังความคิด (Mind Map) กฎของนิวตันและสมดุลกล 1 หน้ากระดาษ",
+            "assignee": "นักเรียน",
+            "completed": true
+          },
+          {
+            "id": "act-st-2b",
+            "text": "ทำแบบฝึกหัดบทที่ 4 งานและพลังงาน ข้อ 1-15",
+            "assignee": "นักเรียน",
+            "completed": false
+          }
+        ],
+        "followUpDate": "2026-09-27",
+        "sentiment": "positive",
+        "createdAt": "2026-09-20T16:00:00.000Z"
+      },
+      {
+        "id": "1on1-tutor-1",
+        "participantId": "user-tutor-1",
+        "participantName": "อาจารย์ผู้สอน (เริ่มต้น)",
+        "participantNickname": "ครูผู้สอน",
+        "participantRole": "tutor",
+        "participantAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+        "executiveId": "user-admin-1",
+        "executiveName": "ผู้ดูแลระบบ (เจ้าของสถาบัน)",
+        "topic": "วางแผนยกระดับหลักสูตรตะลุยโจทย์ A-Level คณิตศาสตร์ & ประเมินผลการสอนไตรมาส 3",
+        "category": "performance_feedback",
+        "date": "2026-09-25",
+        "startTime": "14:00",
+        "endTime": "14:45",
+        "mode": "onsite",
+        "locationOrLink": "ห้องรับรองผู้บริหาร ชั้น 2 สถาบัน TutorHub",
+        "status": "completed",
+        "details": "พูดคุยตัวต่อตัวกับครูผู้สอนเกี่ยวกับผลตอบรับจากนักเรียนคลาส ม.ปลาย ตะลุยโจทย์ คะแนนประเมินเฉลี่ยสูงถึง 4.9/5 นักเรียนชื่นชอบเทคนิคการตัดช้อยส์ แนวทางเพิ่มเติมคือการเพิ่มชุดข้อสอบ Mock Exam อีก 2 ชุดก่อนสอบจริง และปรับสัดส่วนเวลาเฉลยการบ้านต้นคาบ 15 นาที",
+        "keyTakeaways": "1. ครูผู้สอนจัดทำชุดข้อสอบ Mock Exam A-Level เพิ่ม 2 ชุดภายในต้นเดือนหน้า\n2. สถาบันอนุมัติงบสนับสนุนทีมทำเอกสารประกอบการสอนเพิ่ม\n3. พิจารณาปรับเรทค่าสอนขึ้นตามเกณฑ์ในรอบประเมินถัดไป",
+        "actionItems": [
+          {
+            "id": "act-1",
+            "text": "ส่งต้นฉบับชุดข้อสอบ Mock Exam ชุดที่ 1 ให้ฝ่ายวิชาการตรวจ",
+            "assignee": "ครูผู้สอน",
+            "completed": true
+          },
+          {
+            "id": "act-2",
+            "text": "จัดเตรียมทีมกราฟิกช่วยจัดหน้าชีทสรุปสูตรลัด",
+            "assignee": "ผู้บริหาร",
+            "completed": false
+          }
+        ],
+        "followUpDate": "2026-10-15",
+        "privateNotes": "ครูมีความทุ่มเทสูงมาก ควรรักษาไว้เป็นติวเตอร์หลักของสถาบันระยะยาว",
+        "sentiment": "positive",
+        "createdAt": "2026-09-25T14:50:00.000Z"
+      },
+      {
+        "id": "1on1-parent-1",
+        "participantId": "user-parent-1",
+        "participantName": "ผู้ปกครอง (เริ่มต้น)",
+        "participantNickname": "คุณผู้ปกครอง",
+        "participantRole": "parent",
+        "participantAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+        "executiveId": "user-admin-1",
+        "executiveName": "ผู้ดูแลระบบ (เจ้าของสถาบัน)",
+        "topic": "สรุปพัฒนาการเรียนรายเดือนของบุตรหลาน และวางแผนคอร์สเรียนต่อเนื่องเทอมหน้า",
+        "category": "parent_consultation",
+        "date": "2026-09-28",
+        "startTime": "10:30",
+        "endTime": "11:15",
+        "mode": "online",
+        "locationOrLink": "Google Meet / ห้องปรึกษาผู้ปกครองออนไลน์",
+        "status": "completed",
+        "details": "ผู้บริหารพูดคุยอัปเดตผลการเรียนของนักเรียนกับผู้ปกครอง ผู้ปกครองพอใจมากกับระบบเช็คชื่อถ่ายรูปเรียลไทม์และรายงานผลรายคาบ พร้อมปรึกษาเรื่องการลงทะเบียนคอร์สติวเข้มช่วงปิดเทอมตุลาคมเพื่อเตรียมตัวสอบสนามจริง",
+        "keyTakeaways": "1. ผู้ปกครองยืนยันจองคอร์ส Intensive ตุลาคมล่วงหน้า\n2. ขอปรับเวลาเรียนวันเสาร์เป็นช่วงบ่ายเพื่อให้เดินทางสะดวกขึ้น\n3. สถาบันส่งสรุปกราฟพัฒนาการรายเดือนให้ผู้ปกครองทุกสิ้นเดือน",
+        "actionItems": [
+          {
+            "id": "act-5",
+            "text": "ส่งตารางเรียนคอร์ส Intensive เดือนตุลาคมให้ผู้ปกครองพิจารณา",
+            "assignee": "ผู้บริหาร",
+            "completed": true
+          },
+          {
+            "id": "act-6",
+            "text": "สำรองที่นั่งรอบวันเสาร์บ่ายให้นักเรียน",
+            "assignee": "ผู้บริหาร",
+            "completed": false
+          }
+        ],
+        "followUpDate": "2026-10-05",
+        "privateNotes": "ผู้ปกครองพร้อมสนับสนุนเต็มที่และมีโอกาสแนะนำเพื่อนผู้ปกครองท่านอื่นต่อสูงมาก",
+        "sentiment": "positive",
+        "createdAt": "2026-09-28T11:20:00.000Z"
+      }
+    ]
   }
 }
