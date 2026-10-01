@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-01T19:25:35.999Z",
-  "formattedTimeThai": "2/10/2569 02:25:35",
+  "exportedAt": "2026-10-01T19:29:30.929Z",
+  "formattedTimeThai": "2/10/2569 02:29:30",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
@@ -902,8 +902,8 @@
       "sealTextBottom": "OFFICIAL AUDITED",
       "sealTextCenter": "PAID / ชำระแล้ว",
       "tuitionReceipt": {
-        "titleTh": "ใบเสร็จรับเงิน / ใบกำกับภาษีอย่างย่อ",
-        "titleEn": "Tuition Fee Official Receipt & Tax Invoice (ABB)",
+        "titleTh": "ใบเสร็จรับเงิน",
+        "titleEn": "Tuition Fee Official Receipt",
         "prefix": "RCP-",
         "footerNotes": "🔒 เอกสารอิเล็กทรอนิกส์นี้ออกโดยระบบอัตโนมัติ มีผลสมบูรณ์ตาม พ.ร.บ. ว่าด้วยธุรกรรมทางอิเล็กทรอนิกส์ พ.ศ. 2544",
         "includeQrVerification": true,
