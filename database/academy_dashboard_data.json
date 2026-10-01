@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-01T19:29:30.929Z",
-  "formattedTimeThai": "2/10/2569 02:29:30",
+  "exportedAt": "2026-10-01T19:30:00.769Z",
+  "formattedTimeThai": "2/10/2569 02:30:00",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
@@ -878,7 +878,7 @@
     "monthlyGoals": [],
     "goalReviews": [],
     "academyDocSettings": {
-      "academyNameTh": "เอสพีซี เลิร์นนิง",
+      "academyNameTh": "เอสพีซี เลิร์นนิง สตูดิโอ",
       "academyNameEn": "SPC LEARNING STUDIO",
       "taxId": "",
       "branch": "สถาบันหลัก (สำนักงานใหญ่)",
