@@ -2,15 +2,15 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-01T11:32:12.341Z",
-  "formattedTimeThai": "1/10/2569 18:32:12",
+  "exportedAt": "2026-10-01T11:35:44.317Z",
+  "formattedTimeThai": "1/10/2569 18:35:44",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ผู้ดูแลระบบ (เจ้าของสถาบัน)",
     "role": "admin"
   },
   "summary": {
-    "totalUsers": 4,
+    "totalUsers": 5,
     "totalCourses": 0,
     "totalSchedules": 0,
     "totalBills": 0,
@@ -21,6 +21,20 @@
   },
   "database": {
     "users": [
+      {
+        "role": "student",
+        "username": "SPC-M4001",
+        "password": "12345",
+        "fullName": "นายพุฒิพงศ์",
+        "nickname": "อมรเลิศภิญโญ",
+        "email": "SPC-M4001@tutorhub.ac.th",
+        "phone": "08x-xxx-xxxx",
+        "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+        "gradeLevel": "มัธยมศึกษาปีที่ 4",
+        "school": "พนัสพิทยาคาร",
+        "enrolledCourseIds": [],
+        "id": "user-student-1790854541294"
+      },
       {
         "id": "user-admin-1",
         "username": "admin",
