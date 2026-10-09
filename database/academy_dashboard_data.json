@@ -2,15 +2,15 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-09T16:29:36.166Z",
-  "formattedTimeThai": "9/10/2569 23:29:36",
+  "exportedAt": "2026-10-09T16:31:13.373Z",
+  "formattedTimeThai": "9/10/2569 23:31:13",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
     "role": "admin"
   },
   "summary": {
-    "totalUsers": 23,
+    "totalUsers": 24,
     "totalCourses": 3,
     "totalSchedules": 0,
     "totalBills": 0,
@@ -21,6 +21,22 @@
   },
   "database": {
     "users": [
+      {
+        "role": "student",
+        "username": "SPCM4-003",
+        "password": "00000",
+        "fullName": "ศศิปะภา เลิศวิลัย",
+        "nickname": "ไฮด้า",
+        "email": "SPCM4-003@tutorhub.ac.th",
+        "phone": "08x-xxx-xxxx",
+        "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+        "gradeLevel": "มัธยมศึกษาปีที่ 4",
+        "school": "พนัสพิทยาคาร",
+        "enrolledCourseIds": [
+          "course-1791562013758"
+        ],
+        "id": "user-student-1791563471285"
+      },
       {
         "role": "parent",
         "username": "SPCPM2-012",
@@ -33,7 +49,8 @@
         "childrenIds": [
           "user-student-1791563330501"
         ],
-        "id": "user-parent-1791563374146"
+        "id": "user-parent-1791563374146",
+        "enrolledCourseIds": []
       },
       {
         "role": "student",
@@ -1019,7 +1036,7 @@
         "thumbnailUrl": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&auto=format&fit=crop&q=80",
         "status": "active",
         "id": "course-1791562013758",
-        "enrolledCount": 1
+        "enrolledCount": 2
       },
       {
         "code": "MM201",
