@@ -2,15 +2,15 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-09T16:35:41.975Z",
-  "formattedTimeThai": "9/10/2569 23:35:41",
+  "exportedAt": "2026-10-09T16:38:34.140Z",
+  "formattedTimeThai": "9/10/2569 23:38:34",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
     "role": "admin"
   },
   "summary": {
-    "totalUsers": 27,
+    "totalUsers": 28,
     "totalCourses": 3,
     "totalSchedules": 0,
     "totalBills": 0,
@@ -21,6 +21,22 @@
   },
   "database": {
     "users": [
+      {
+        "role": "student",
+        "username": "SPCM3-001",
+        "password": "00000",
+        "fullName": "ด.ญ.วัชราภรณ์ วรรณเทศ",
+        "nickname": "จีจ้า",
+        "email": "SPCM3-001@tutorhub.ac.th",
+        "phone": "08x-xxx-xxxx",
+        "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+        "gradeLevel": "มัธยมศึกษาปีที่ 3",
+        "school": "พนัสพิทยาคาร",
+        "enrolledCourseIds": [
+          "course-1791475705046"
+        ],
+        "id": "user-student-1791563912029"
+      },
       {
         "role": "parent",
         "username": "SPCPM3-009",
@@ -1135,7 +1151,7 @@
         "thumbnailUrl": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&auto=format&fit=crop&q=80",
         "status": "active",
         "id": "course-1791475705046",
-        "enrolledCount": 6
+        "enrolledCount": 7
       }
     ],
     "subjects": [
