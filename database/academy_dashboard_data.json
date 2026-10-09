@@ -2,15 +2,15 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-09T16:03:44.303Z",
-  "formattedTimeThai": "9/10/2569 23:03:44",
+  "exportedAt": "2026-10-09T16:04:43.856Z",
+  "formattedTimeThai": "9/10/2569 23:04:43",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
     "role": "admin"
   },
   "summary": {
-    "totalUsers": 18,
+    "totalUsers": 19,
     "totalCourses": 2,
     "totalSchedules": 0,
     "totalBills": 0,
@@ -22,6 +22,20 @@
   "database": {
     "users": [
       {
+        "role": "parent",
+        "username": "SPCPM4-005",
+        "password": "00000",
+        "fullName": "น.ส.ปรียาภรณ์ จันทร์แดง",
+        "nickname": "",
+        "email": "SPCPM4-005@tutorhub.ac.th",
+        "phone": "082-523-1444",
+        "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+        "childrenIds": [
+          "user-student-1791561819157"
+        ],
+        "id": "user-parent-1791561881837"
+      },
+      {
         "role": "student",
         "username": "SPCM4-005",
         "password": "00000",
@@ -32,6 +46,7 @@
         "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
         "gradeLevel": "มัธยมศึกษาปีที่ 4",
         "school": "พนัสพิทยาคาร",
+        "parentId": "user-parent-1791561881837",
         "enrolledCourseIds": [],
         "id": "user-student-1791561819157"
       },
