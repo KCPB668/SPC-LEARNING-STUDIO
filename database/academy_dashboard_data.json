@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-09T16:07:15.019Z",
-  "formattedTimeThai": "9/10/2569 23:07:15",
+  "exportedAt": "2026-10-09T16:07:27.301Z",
+  "formattedTimeThai": "9/10/2569 23:07:27",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
@@ -33,7 +33,8 @@
         "childrenIds": [
           "user-student-1791561819157"
         ],
-        "id": "user-parent-1791561881837"
+        "id": "user-parent-1791561881837",
+        "enrolledCourseIds": []
       },
       {
         "role": "student",
