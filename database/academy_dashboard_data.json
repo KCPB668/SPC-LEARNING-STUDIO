@@ -2,15 +2,15 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-09T14:41:44.106Z",
-  "formattedTimeThai": "9/10/2569 21:41:44",
+  "exportedAt": "2026-10-09T14:43:03.767Z",
+  "formattedTimeThai": "9/10/2569 21:43:03",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
     "role": "admin"
   },
   "summary": {
-    "totalUsers": 10,
+    "totalUsers": 11,
     "totalCourses": 1,
     "totalSchedules": 0,
     "totalBills": 0,
@@ -21,6 +21,20 @@
   },
   "database": {
     "users": [
+      {
+        "role": "parent",
+        "username": "SPCPM3-007",
+        "password": "00000",
+        "fullName": "ศิริลักษณ์ แย้มศิริ",
+        "nickname": "",
+        "email": "SPCPM3-007@tutorhub.ac.th",
+        "phone": "0845674089,0878032566",
+        "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+        "childrenIds": [
+          "user-student-1791556880887"
+        ],
+        "id": "user-parent-1791556981727"
+      },
       {
         "role": "student",
         "username": "SPCM3-007",
@@ -35,7 +49,8 @@
         "enrolledCourseIds": [
           "course-1791475705046"
         ],
-        "id": "user-student-1791556880887"
+        "id": "user-student-1791556880887",
+        "parentId": "user-parent-1791556981727"
       },
       {
         "role": "parent",
