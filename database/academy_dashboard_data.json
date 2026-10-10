@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-10T15:43:29.694Z",
-  "formattedTimeThai": "10/10/2569 22:43:29",
+  "exportedAt": "2026-10-10T17:22:54.660Z",
+  "formattedTimeThai": "11/10/2569 00:22:54",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
@@ -33,7 +33,8 @@
         "childrenIds": [
           "user-student-1791646938087"
         ],
-        "id": "user-parent-1791647007674"
+        "id": "user-parent-1791647007674",
+        "enrolledCourseIds": []
       },
       {
         "role": "student",
@@ -564,19 +565,29 @@
         "username": "tutor1",
         "password": "tutor123",
         "role": "tutor",
-        "fullName": "อาจารย์ผู้สอน (เริ่มต้น)",
-        "nickname": "ครูผู้สอน",
-        "phone": "089-000-0001",
-        "email": "tutor@tutorhub.ac.th",
+        "fullName": "ครูสุพิชชานันท์",
+        "nickname": "ทองอินทร์",
+        "phone": "081-049-0561",
+        "email": "-",
         "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
-        "hourlyRate": 350,
+        "hourlyRate": 300,
         "tutorTier": "Junior",
         "specialty": [
           "คณิตศาสตร์",
           "วิทยาศาสตร์"
         ],
         "bio": "พร้อมสอนและปูพื้นฐานการเรียนรู้แก่นักเรียน",
-        "enrolledCourseIds": []
+        "birthDate": "",
+        "currentAddress": "",
+        "lineId": "",
+        "idCardNumber": "",
+        "bankName": "ธนาคารกสิกรไทย (KBANK)",
+        "bankAccountNumber": "",
+        "bankAccountName": "อาจารย์ผู้สอน (เริ่มต้น)",
+        "currentTeachingInstitute": "",
+        "experienceYears": 3,
+        "educationDegree": "",
+        "rateNotes": "เรทแต่ละคอร์สไม่เท่ากัน"
       },
       {
         "id": "user-student-1",
