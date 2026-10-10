@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-10T17:35:58.783Z",
-  "formattedTimeThai": "11/10/2569 00:35:58",
+  "exportedAt": "2026-10-10T17:41:27.821Z",
+  "formattedTimeThai": "11/10/2569 00:41:27",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
@@ -11,7 +11,7 @@
   },
   "summary": {
     "totalUsers": 38,
-    "totalCourses": 4,
+    "totalCourses": 5,
     "totalSchedules": 0,
     "totalBills": 0,
     "totalAttendance": 0,
@@ -45,7 +45,8 @@
         "rateNotes": "",
         "specialty": [],
         "bio": "",
-        "id": "user-tutor-1791653756755"
+        "id": "user-tutor-1791653756755",
+        "enrolledCourseIds": []
       },
       {
         "role": "parent",
@@ -490,7 +491,8 @@
         "gradeLevel": "มัธยมศึกษาปีที่ 3",
         "school": "พนัสพิทยาคาร",
         "enrolledCourseIds": [
-          "course-1791475705046"
+          "course-1791475705046",
+          "course-1791654085755"
         ],
         "id": "user-student-1791556880887",
         "parentId": "user-parent-1791556981727"
@@ -555,7 +557,8 @@
         "school": "โรงเรียนพนัสพิทยาคาร",
         "parentId": "user-parent-1791475194223",
         "enrolledCourseIds": [
-          "course-1791475705046"
+          "course-1791475705046",
+          "course-1791654085755"
         ],
         "id": "user-student-1791475071718"
       },
@@ -1259,6 +1262,32 @@
     ],
     "courses": [
       {
+        "code": "EM301",
+        "title": "อังกฤษ ม.3",
+        "subject": "ภาษาอังกฤษ",
+        "level": "ม.ต้น (ม.1-3)",
+        "tutorId": "user-tutor-1791653756755",
+        "tutorName": "นางสาวศุจิมนัส วงษ์เกตุ",
+        "description": "หลักสูตรคุณภาพเพื่อผลสัมฤทธิ์ทางการเรียนสูงสุด",
+        "totalHours": 16,
+        "totalSessions": 8,
+        "price": 4800,
+        "maxSeats": 15,
+        "scheduleDescription": "ทุกวันจันทร์ 17:30 - 19:30 น.",
+        "mode": "onsite",
+        "roomOrLink": "ห้อง 301",
+        "startDate": "2026-10-01",
+        "endDate": "2027-02-28",
+        "tags": [
+          "ตะลุยโจทย์",
+          "เข้มข้น"
+        ],
+        "thumbnailUrl": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=80",
+        "status": "active",
+        "id": "course-1791654085755",
+        "enrolledCount": 2
+      },
+      {
         "code": "MM311",
         "title": "คณิต ม.3 (online)",
         "subject": "คณิตศาสตร์",
@@ -1428,17 +1457,7 @@
     "bills": [],
     "bookings": [],
     "evaluations": [],
-    "tutorEarnings": [
-      {
-        "tutorId": "user-tutor-1791653756755",
-        "tutorName": "นางสาวศุจิมนัส วงษ์เกตุ",
-        "hourlyRate": 300,
-        "totalHoursTaught": 0,
-        "totalEarnings": 0,
-        "payoutStatus": "pending",
-        "lastPaidDate": "-"
-      }
-    ],
+    "tutorEarnings": [],
     "teachingHourLogs": [],
     "academyEvents": [],
     "compensationTiers": [
