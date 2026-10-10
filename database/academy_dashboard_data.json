@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-10T15:38:40.578Z",
-  "formattedTimeThai": "10/10/2569 22:38:40",
+  "exportedAt": "2026-10-10T15:39:00.117Z",
+  "formattedTimeThai": "10/10/2569 22:39:00",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
@@ -48,7 +48,9 @@
         "gradeLevel": "มัธยมศึกษาปีที่ 3",
         "school": "พนัสพิทยาคาร",
         "parentId": "user-parent-1791646562018",
-        "enrolledCourseIds": [],
+        "enrolledCourseIds": [
+          "course-1791646706724"
+        ],
         "id": "user-student-1791646512876"
       },
       {
@@ -1210,7 +1212,7 @@
         "thumbnailUrl": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&auto=format&fit=crop&q=80",
         "status": "active",
         "id": "course-1791646706724",
-        "enrolledCount": 0
+        "enrolledCount": 1
       },
       {
         "code": "MM401",
