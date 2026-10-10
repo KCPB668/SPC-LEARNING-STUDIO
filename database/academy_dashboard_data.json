@@ -2,15 +2,15 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-10T17:32:32.521Z",
-  "formattedTimeThai": "11/10/2569 00:32:32",
+  "exportedAt": "2026-10-10T17:35:58.783Z",
+  "formattedTimeThai": "11/10/2569 00:35:58",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
     "role": "admin"
   },
   "summary": {
-    "totalUsers": 37,
+    "totalUsers": 38,
     "totalCourses": 4,
     "totalSchedules": 0,
     "totalBills": 0,
@@ -21,6 +21,32 @@
   },
   "database": {
     "users": [
+      {
+        "role": "tutor",
+        "username": "SPCT002",
+        "password": "00000",
+        "fullName": "นางสาวศุจิมนัส วงษ์เกตุ",
+        "nickname": "กุ๊กไก่",
+        "email": "SPCT002@tutorhub.ac.th",
+        "phone": "0951178480",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+        "birthDate": "",
+        "currentAddress": "",
+        "lineId": "",
+        "idCardNumber": "",
+        "bankName": "ธนาคารกสิกรไทย (KBANK)",
+        "bankAccountNumber": "",
+        "bankAccountName": "นางสาวศุจิมนัส วงษ์เกตุ",
+        "currentTeachingInstitute": "",
+        "hourlyRate": 300,
+        "experienceYears": 3,
+        "educationDegree": "",
+        "tutorTier": "Junior",
+        "rateNotes": "",
+        "specialty": [],
+        "bio": "",
+        "id": "user-tutor-1791653756755"
+      },
       {
         "role": "parent",
         "username": "SPCPM2-003",
@@ -588,7 +614,8 @@
         "experienceYears": 3,
         "educationDegree": "",
         "rateNotes": "เรทแต่ละคอร์สไม่เท่ากัน",
-        "age": 34
+        "age": 34,
+        "enrolledCourseIds": []
       },
       {
         "id": "user-student-1",
@@ -1401,7 +1428,17 @@
     "bills": [],
     "bookings": [],
     "evaluations": [],
-    "tutorEarnings": [],
+    "tutorEarnings": [
+      {
+        "tutorId": "user-tutor-1791653756755",
+        "tutorName": "นางสาวศุจิมนัส วงษ์เกตุ",
+        "hourlyRate": 300,
+        "totalHoursTaught": 0,
+        "totalEarnings": 0,
+        "payoutStatus": "pending",
+        "lastPaidDate": "-"
+      }
+    ],
     "teachingHourLogs": [],
     "academyEvents": [],
     "compensationTiers": [
