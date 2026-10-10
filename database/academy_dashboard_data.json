@@ -2,15 +2,15 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-10T17:41:32.406Z",
-  "formattedTimeThai": "11/10/2569 00:41:32",
+  "exportedAt": "2026-10-10T17:43:28.277Z",
+  "formattedTimeThai": "11/10/2569 00:43:28",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
     "role": "admin"
   },
   "summary": {
-    "totalUsers": 38,
+    "totalUsers": 39,
     "totalCourses": 5,
     "totalSchedules": 0,
     "totalBills": 0,
@@ -21,6 +21,32 @@
   },
   "database": {
     "users": [
+      {
+        "role": "tutor",
+        "username": "SPCT003",
+        "password": "00000",
+        "fullName": "นางสาวสิตานันท์",
+        "nickname": "คิดหาทอง",
+        "email": "SPCT003@tutorhub.ac.th",
+        "phone": "0896083917",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+        "birthDate": "",
+        "currentAddress": "",
+        "lineId": "",
+        "idCardNumber": "",
+        "bankName": "ธนาคารทหารไทยธนชาต (ttb)",
+        "bankAccountNumber": "634225665",
+        "bankAccountName": "นางสาวสิตานันท์",
+        "currentTeachingInstitute": "",
+        "hourlyRate": 150,
+        "experienceYears": 1,
+        "educationDegree": "",
+        "tutorTier": "Junior",
+        "rateNotes": "",
+        "specialty": [],
+        "bio": "",
+        "id": "user-tutor-1791654206251"
+      },
       {
         "role": "tutor",
         "username": "SPCT002",
@@ -1457,7 +1483,17 @@
     "bills": [],
     "bookings": [],
     "evaluations": [],
-    "tutorEarnings": [],
+    "tutorEarnings": [
+      {
+        "tutorId": "user-tutor-1791654206251",
+        "tutorName": "นางสาวสิตานันท์",
+        "hourlyRate": 150,
+        "totalHoursTaught": 0,
+        "totalEarnings": 0,
+        "payoutStatus": "pending",
+        "lastPaidDate": "-"
+      }
+    ],
     "teachingHourLogs": [],
     "academyEvents": [],
     "compensationTiers": [
