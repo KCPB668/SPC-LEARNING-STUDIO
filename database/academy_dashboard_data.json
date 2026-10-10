@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-10T17:31:57.122Z",
-  "formattedTimeThai": "11/10/2569 00:31:57",
+  "exportedAt": "2026-10-10T17:32:32.521Z",
+  "formattedTimeThai": "11/10/2569 00:32:32",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
@@ -562,7 +562,7 @@
       },
       {
         "id": "user-tutor-1",
-        "username": "Supit",
+        "username": "SPCT001",
         "password": "Supit229",
         "role": "tutor",
         "fullName": "ครูสุพิชชานันท์",
