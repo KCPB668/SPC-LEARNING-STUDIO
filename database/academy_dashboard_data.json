@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-10T17:58:57.203Z",
-  "formattedTimeThai": "11/10/2569 00:58:57",
+  "exportedAt": "2026-10-10T17:59:51.038Z",
+  "formattedTimeThai": "11/10/2569 00:59:51",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
@@ -1597,29 +1597,7 @@
       }
     },
     "onlineClassrooms": [],
-    "classroomDeletionLogs": [
-      {
-        "id": "del-log-1791655135184",
-        "classroomId": "online-room-1791654560471",
-        "subjectName": "TEST ครั้งที่ 2",
-        "topic": "test",
-        "roomCode": "11111",
-        "tutorName": "ครูสุพิชชานันท์",
-        "studentNames": [
-          "KANCHAI (KCPB)",
-          "นักเรียน (เริ่มต้น) (น้องเรียนดี)"
-        ],
-        "date": "2026-10-11",
-        "timeRange": "00:51 - 00:55 น.",
-        "deletedAt": "11/10/2569 00:58:55",
-        "deletedBy": "ครูสุชพิชชานันท์ ทองอินทร์ (เจ้าของสถาบัน/ฝ่ายบริหาร)",
-        "reason": "สอนเสร็จสมบูรณ์ - เจ้าของสถาบันลบและทำลายห้องเรียนออนไลน์ทันที เพื่อควบคุมคุณภาพการเรียนการสอน และป้องกันไม่ให้ครูผู้สอนติดต่อผู้ปกครองเพื่อเลื่อนคลาสเรียนหรือขายคลาสเรียนเอง",
-        "auditVerificationCode": "SEC-AUDIT-2026-11111-5184",
-        "securityHash": "SHA256:7f9b5b0b3024e4c82a1d3f6e",
-        "durationMinutes": 15,
-        "sessionStatusAtDeletion": "กำลังสอน (ยุติและทำลายทันที)"
-      }
-    ],
+    "classroomDeletionLogs": [],
     "oneOnOneSessions": []
   }
 }
