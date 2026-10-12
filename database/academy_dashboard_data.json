@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-10T18:08:30.768Z",
-  "formattedTimeThai": "11/10/2569 01:08:30",
+  "exportedAt": "2026-10-12T17:53:23.905Z",
+  "formattedTimeThai": "13/10/2569 00:53:23",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
@@ -12,7 +12,7 @@
   "summary": {
     "totalUsers": 40,
     "totalCourses": 5,
-    "totalSchedules": 0,
+    "totalSchedules": 1,
     "totalBills": 0,
     "totalAttendance": 0,
     "totalOnlineClassrooms": 0,
@@ -1491,7 +1491,28 @@
         "iconName": "BookMarked"
       }
     ],
-    "schedules": [],
+    "schedules": [
+      {
+        "courseId": "course-1791654085755",
+        "courseCode": "EM301",
+        "courseTitle": "อังกฤษ ม.3",
+        "tutorId": "user-tutor-1791654206251",
+        "tutorName": "นางสาวสิตานันท์",
+        "date": "2026-09-19",
+        "startTime": "09:00",
+        "endTime": "12:00",
+        "mode": "onsite",
+        "classroomId": "room-1791655578993",
+        "roomOrLink": "201",
+        "topic": "สอนตามตารางการเรียนการสอน",
+        "registeredStudentIds": [
+          "user-student-1791556880887",
+          "user-student-1791475071718"
+        ],
+        "id": "sched-1791827601893-m1n6u",
+        "status": "upcoming"
+      }
+    ],
     "classrooms": [
       {
         "name": "201",
@@ -1648,6 +1669,148 @@
     },
     "onlineClassrooms": [],
     "classroomDeletionLogs": [],
-    "oneOnOneSessions": []
+    "oneOnOneSessions": [],
+    "tabStatuses": {
+      "overview": {
+        "tabId": "overview",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "user_directory": {
+        "tabId": "user_directory",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "courses": {
+        "tabId": "courses",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "users": {
+        "tabId": "users",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "rbac_permissions": {
+        "tabId": "rbac_permissions",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "classrooms": {
+        "tabId": "classrooms",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "online_classroom": {
+        "tabId": "online_classroom",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "daily_schedule": {
+        "tabId": "daily_schedule",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "payroll": {
+        "tabId": "payroll",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "calendar": {
+        "tabId": "calendar",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "marketing": {
+        "tabId": "marketing",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "content": {
+        "tabId": "content",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "finance": {
+        "tabId": "finance",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "document_control": {
+        "tabId": "document_control",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "attendance": {
+        "tabId": "attendance",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "evaluations": {
+        "tabId": "evaluations",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "one_on_one": {
+        "tabId": "one_on_one",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "chat": {
+        "tabId": "chat",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "catalog": {
+        "tabId": "catalog",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "github_sync": {
+        "tabId": "github_sync",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      }
+    }
   }
 }
