@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-22T15:48:19.271Z",
-  "formattedTimeThai": "22/10/2569 22:48:19",
+  "exportedAt": "2026-10-22T16:47:14.282Z",
+  "formattedTimeThai": "22/10/2569 23:47:14",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
@@ -1007,7 +1007,7 @@
         "startTime": "10:00",
         "endTime": "12:00",
         "status": "live",
-        "createdAt": "2026-10-22T15:48:15.587Z",
+        "createdAt": "2026-10-22T16:47:11.368Z",
         "isTutorOnline": true,
         "activeStudentIds": [
           "user-student-1"
@@ -1093,7 +1093,7 @@
         "startTime": "13:00",
         "endTime": "15:00",
         "status": "scheduled",
-        "createdAt": "2026-10-22T15:48:15.587Z",
+        "createdAt": "2026-10-22T16:47:11.368Z",
         "isTutorOnline": false,
         "activeStudentIds": [],
         "whiteboardNotes": "📌 เตรียมตัวก่อนเข้าเรียนฟิสิกส์:\n• ทบทวน 5 สูตรการเคลื่อนที่แนวตรงด้วยความเร่งคงที่\n• ปริมาณเวกเตอร์ vs สเกลาร์",
@@ -1119,147 +1119,147 @@
         "tabId": "overview",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "user_directory": {
         "tabId": "user_directory",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "courses": {
         "tabId": "courses",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "users": {
         "tabId": "users",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "rbac_permissions": {
         "tabId": "rbac_permissions",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "classrooms": {
         "tabId": "classrooms",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "online_classroom": {
         "tabId": "online_classroom",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "daily_schedule": {
         "tabId": "daily_schedule",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "activity_logs": {
         "tabId": "activity_logs",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "payroll": {
         "tabId": "payroll",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "calendar": {
         "tabId": "calendar",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "marketing": {
         "tabId": "marketing",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "content": {
         "tabId": "content",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "finance": {
         "tabId": "finance",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "document_control": {
         "tabId": "document_control",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "attendance": {
         "tabId": "attendance",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "evaluations": {
         "tabId": "evaluations",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "one_on_one": {
         "tabId": "one_on_one",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "chat": {
         "tabId": "chat",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "catalog": {
         "tabId": "catalog",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "github_sync": {
         "tabId": "github_sync",
         "status": "active",
         "maintenanceReason": "",
-        "updatedAt": "2026-10-22T15:48:16.040Z",
+        "updatedAt": "2026-10-22T16:47:11.603Z",
         "updatedBy": "ระบบเริ่มต้น"
       }
     },
