@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-23T13:41:38.384Z",
-  "formattedTimeThai": "23/10/2569 20:41:38",
+  "exportedAt": "2026-10-23T13:42:02.118Z",
+  "formattedTimeThai": "23/10/2569 20:42:02",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
@@ -1692,9 +1692,7 @@
         "status": "live",
         "createdAt": "2026-10-23T13:40:27.081Z",
         "isTutorOnline": false,
-        "activeStudentIds": [
-          "user-admin-1"
-        ],
+        "activeStudentIds": [],
         "whiteboardNotes": "📌 สรุปสาระสำคัญประจำคาบเรียน:\n• วิชา: อังกฤษ ม.3\n• หัวข้อ: แคลคูลัส: อนุพันธ์และการประยุกต์โจทย์ระดับยาก\n• ผู้สอน: นางสาวสิตานันท์\n• วันที่สอน: 2026-10-23 (20:41 - 20:45 น.)",
         "securityNotice": "🔒 นโยบายควบคุมคุณภาพสถาบัน: ห้องเรียนออนไลน์นี้อยู่ภายใต้การกำกับดูแลของฝ่ายบริหารสถาบัน ห้ามแลกเปลี่ยนเบอร์โทรศัพท์/Line ID หรือติดต่อส่วนตัว การเลื่อนคลาสต้องดำเนินการผ่านสถาบันเท่านั้น",
         "chatMessages": [
@@ -1714,7 +1712,7 @@
             "userId": "user-admin-1",
             "userName": "ครูสุชพิชชานันท์ ทองอินทร์",
             "userRole": "admin",
-            "isOnline": true,
+            "isOnline": false,
             "joinedAt": "20:40 น.",
             "isMicOn": false,
             "isVideoOn": false,
