@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-22T16:58:10.256Z",
-  "formattedTimeThai": "22/10/2569 16:58:10",
+  "exportedAt": "2026-10-23T08:04:15.951Z",
+  "formattedTimeThai": "23/10/2569 15:04:15",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
@@ -15,7 +15,7 @@
     "totalSchedules": 1,
     "totalBills": 0,
     "totalAttendance": 0,
-    "totalOnlineClassrooms": 0,
+    "totalOnlineClassrooms": 1,
     "totalRevenuePaid": 0,
     "rolesCount": 7
   },
@@ -1667,7 +1667,49 @@
         "autoIssueOnPayoutApproved": true
       }
     },
-    "onlineClassrooms": [],
+    "onlineClassrooms": [
+      {
+        "id": "online-room-1792742653945",
+        "subjectName": "ทดสอบ",
+        "topic": "แคลคูลัส: อนุพันธ์และการประยุกต์โจทย์ระดับยาก",
+        "roomCode": "TH-7887",
+        "passcode": "8924",
+        "courseId": "course-1791654085755",
+        "tutorId": "user-tutor-1791654206251",
+        "tutorName": "นางสาวสิตานันท์",
+        "tutorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+        "studentIds": [
+          "user-student-1",
+          "user-student-1791654463233"
+        ],
+        "studentNames": [
+          "KANCHAI (KCPB)",
+          "นักเรียน (เริ่มต้น) (น้องเรียนดี)"
+        ],
+        "date": "2026-10-23",
+        "startTime": "15:05",
+        "endTime": "15:15",
+        "status": "live",
+        "createdAt": "2026-10-23T08:04:13.945Z",
+        "isTutorOnline": false,
+        "activeStudentIds": [],
+        "whiteboardNotes": "📌 สรุปสาระสำคัญประจำคาบเรียน:\n• วิชา: ทดสอบ\n• หัวข้อ: แคลคูลัส: อนุพันธ์และการประยุกต์โจทย์ระดับยาก\n• ผู้สอน: นางสาวสิตานันท์\n• วันที่สอน: 2026-10-23 (15:05 - 15:15 น.)",
+        "securityNotice": "🔒 นโยบายควบคุมคุณภาพสถาบัน: ห้องเรียนออนไลน์นี้อยู่ภายใต้การกำกับดูแลของฝ่ายบริหารสถาบัน ห้ามแลกเปลี่ยนเบอร์โทรศัพท์/Line ID หรือติดต่อส่วนตัว การเลื่อนคลาสต้องดำเนินการผ่านสถาบันเท่านั้น",
+        "chatMessages": [
+          {
+            "id": "sys-1792742653945",
+            "senderId": "system",
+            "senderName": "ระบบบริหารสถาบัน TutorHub",
+            "senderRole": "admin",
+            "message": "เปิดห้องเรียนออนไลน์วิชา ทดสอบ รหัสห้อง: TH-7887 รหัสผ่าน: 8924",
+            "timestamp": "15:04 น.",
+            "isSystem": true
+          }
+        ],
+        "sharedFiles": [],
+        "participantStates": []
+      }
+    ],
     "classroomDeletionLogs": [],
     "oneOnOneSessions": [],
     "tabStatuses": {
@@ -1725,6 +1767,13 @@
         "status": "active",
         "maintenanceReason": "",
         "updatedAt": "2026-10-12T17:44:53.006Z",
+        "updatedBy": "ระบบเริ่มต้น"
+      },
+      "activity_logs": {
+        "tabId": "activity_logs",
+        "status": "active",
+        "maintenanceReason": "",
+        "updatedAt": "2026-10-13T11:53:30.854Z",
         "updatedBy": "ระบบเริ่มต้น"
       },
       "payroll": {
@@ -1811,6 +1860,195 @@
         "updatedAt": "2026-10-12T17:44:53.006Z",
         "updatedBy": "ระบบเริ่มต้น"
       }
-    }
+    },
+    "activityLogs": [
+      {
+        "id": "act-log-init-1",
+        "timestamp": "2026-10-12T10:45:00.000Z",
+        "formattedTimeThai": "12 ต.ค. 2569 เวลา 17:45 น.",
+        "action": "update_schedule",
+        "actionLabel": "แก้ไขคาบเรียน / ตารางสอน",
+        "targetType": "schedule",
+        "targetTypeLabel": "คาบเรียน / ตารางสอน",
+        "targetId": "sched-101",
+        "targetTitle": "ชีววิทยา ม.4 (BIO-401)",
+        "actor": {
+          "id": "user-admin-1",
+          "name": "ศุภิชฌาย์ พิชญะพงศ์ (ครูเกรซ)",
+          "role": "admin",
+          "roleLabel": "เจ้าของสถาบัน (Admin)",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+        },
+        "details": "แก้ไขข้อมูลคาบเรียนชีววิทยา ม.4 (ส่วนที่แก้ไข: ช่วงเวลาเรียน, ห้องเรียน/สถานที่)",
+        "changes": [
+          {
+            "field": "time",
+            "fieldLabel": "ช่วงเวลาเรียน",
+            "oldValue": "13:00 - 15:00 น.",
+            "newValue": "13:30 - 15:30 น."
+          },
+          {
+            "field": "roomOrLink",
+            "fieldLabel": "ห้องเรียน/สถานที่",
+            "oldValue": "ห้อง 101 (Lab)",
+            "newValue": "ห้อง 202 (Smart Studio)"
+          }
+        ],
+        "metadata": {
+          "date": "2026-10-17",
+          "courseCode": "BIO-401"
+        }
+      },
+      {
+        "id": "act-log-init-2",
+        "timestamp": "2026-10-12T09:30:00.000Z",
+        "formattedTimeThai": "12 ต.ค. 2569 เวลา 16:30 น.",
+        "action": "update_classroom",
+        "actionLabel": "แก้ไขข้อมูลห้องเรียน",
+        "targetType": "classroom",
+        "targetTypeLabel": "ห้องเรียน",
+        "targetId": "room-202",
+        "targetTitle": "ห้อง 202 Smart Studio (RM-202)",
+        "actor": {
+          "id": "user-admin-1",
+          "name": "ศุภิชฌาย์ พิชญะพงศ์ (ครูเกรซ)",
+          "role": "admin",
+          "roleLabel": "เจ้าของสถาบัน (Admin)",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+        },
+        "details": "แก้ไขข้อมูลห้องเรียน ห้อง 202 Smart Studio (ส่วนที่แก้ไข: ความจุที่นั่ง, อุปกรณ์และสิ่งอำนวยความสะดวก)",
+        "changes": [
+          {
+            "field": "capacity",
+            "fieldLabel": "ความจุที่นั่ง",
+            "oldValue": "15 ที่นั่ง",
+            "newValue": "20 ที่นั่ง"
+          },
+          {
+            "field": "facilities",
+            "fieldLabel": "อุปกรณ์และสิ่งอำนวยความสะดวก",
+            "oldValue": "Smart Board, Projector 4K, Wi-Fi 6",
+            "newValue": "Smart Board, Projector 4K, Wi-Fi 6, กล้อง Hybrid 4K, ไมค์ไร้สายคู่"
+          }
+        ]
+      },
+      {
+        "id": "act-log-init-3",
+        "timestamp": "2026-10-12T08:15:00.000Z",
+        "formattedTimeThai": "12 ต.ค. 2569 เวลา 15:15 น.",
+        "action": "move_schedule_date",
+        "actionLabel": "ย้ายตารางสอนข้ามวัน",
+        "targetType": "batch_schedule",
+        "targetTypeLabel": "ตารางสอนกลุ่ม",
+        "targetId": "batch-move-2026-10-14",
+        "targetTitle": "ย้ายตารางสอนประจำวัน (14 ต.ค. ➔ 16 ต.ค. 2569)",
+        "actor": {
+          "id": "user-academic-1",
+          "name": "ดร.กิตติพงศ์ ชัยวิจิตร (อ.กิต)",
+          "role": "academic",
+          "roleLabel": "ฝ่ายวิชาการ (Academic)",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80"
+        },
+        "details": "ย้ายตารางสอนทั้งหมดจำนวน 3 คาบ จากวันที่ 2026-10-14 ไปยังวันที่ 2026-10-16 เพื่อหลีกเลี่ยงวันหยุดกิจกรรมโรงเรียน",
+        "changes": [
+          {
+            "field": "date",
+            "fieldLabel": "วันที่เรียนเดิม ➔ วันที่เรียนใหม่",
+            "oldValue": "14 ต.ค. 2569",
+            "newValue": "16 ต.ค. 2569"
+          },
+          {
+            "field": "count",
+            "fieldLabel": "จำนวนคาบเรียนที่ย้าย",
+            "oldValue": "0 คาบ",
+            "newValue": "3 คาบ"
+          }
+        ]
+      },
+      {
+        "id": "act-log-init-4",
+        "timestamp": "2026-10-11T14:20:00.000Z",
+        "formattedTimeThai": "11 ต.ค. 2569 เวลา 21:20 น.",
+        "action": "create_schedule",
+        "actionLabel": "เพิ่มคาบเรียนใหม่",
+        "targetType": "schedule",
+        "targetTypeLabel": "คาบเรียน / ตารางสอน",
+        "targetId": "sched-102",
+        "targetTitle": "คณิตศาสตร์ A-Level ม.6 (MATH-601)",
+        "actor": {
+          "id": "user-admin-1",
+          "name": "ศุภิชฌาย์ พิชญะพงศ์ (ครูเกรซ)",
+          "role": "admin",
+          "roleLabel": "เจ้าของสถาบัน (Admin)",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+        },
+        "details": "สร้างคาบเรียนใหม่ วันที่ 2026-10-18 เวลา 09:00 - 12:00 น. ห้อง 101 Lecture Hall ผู้สอน อ.ณภัทร",
+        "changes": [
+          {
+            "field": "date",
+            "fieldLabel": "วันที่เรียน",
+            "oldValue": "(สร้างใหม่)",
+            "newValue": "2026-10-18"
+          },
+          {
+            "field": "time",
+            "fieldLabel": "เวลาเรียน",
+            "oldValue": "(สร้างใหม่)",
+            "newValue": "09:00 - 12:00 น."
+          },
+          {
+            "field": "roomOrLink",
+            "fieldLabel": "ห้องเรียน",
+            "oldValue": "(สร้างใหม่)",
+            "newValue": "ห้อง 101 Lecture Hall"
+          },
+          {
+            "field": "tutorName",
+            "fieldLabel": "ครูผู้สอน",
+            "oldValue": "(สร้างใหม่)",
+            "newValue": "อ.ณภัทร"
+          }
+        ]
+      },
+      {
+        "id": "act-log-init-5",
+        "timestamp": "2026-10-11T11:00:00.000Z",
+        "formattedTimeThai": "11 ต.ค. 2569 เวลา 18:00 น.",
+        "action": "create_classroom",
+        "actionLabel": "เพิ่มห้องเรียนใหม่",
+        "targetType": "classroom",
+        "targetTypeLabel": "ห้องเรียน",
+        "targetId": "room-301",
+        "targetTitle": "ห้อง 301 Hybrid Studio (RM-301)",
+        "actor": {
+          "id": "user-admin-1",
+          "name": "ศุภิชฌาย์ พิชญะพงศ์ (ครูเกรซ)",
+          "role": "admin",
+          "roleLabel": "เจ้าของสถาบัน (Admin)",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+        },
+        "details": "เพิ่มห้องเรียนใหม่ ห้อง 301 Hybrid Studio อาคารพาณิชย์ 3 ชั้น ความจุ 12 ที่นั่ง พร้อมระบบถ่ายทอดสด",
+        "changes": [
+          {
+            "field": "name",
+            "fieldLabel": "ชื่อห้องเรียน",
+            "oldValue": "(สร้างใหม่)",
+            "newValue": "ห้อง 301 Hybrid Studio"
+          },
+          {
+            "field": "capacity",
+            "fieldLabel": "ความจุที่นั่ง",
+            "oldValue": "(สร้างใหม่)",
+            "newValue": "12 ที่นั่ง"
+          },
+          {
+            "field": "type",
+            "fieldLabel": "ประเภทห้อง",
+            "oldValue": "(สร้างใหม่)",
+            "newValue": "hybrid_studio (ห้องเรียนแบบผสมผสาน)"
+          }
+        ]
+      }
+    ]
   }
 }
