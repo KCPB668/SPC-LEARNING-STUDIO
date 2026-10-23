@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-23T08:05:52.875Z",
-  "formattedTimeThai": "23/10/2569 15:05:52",
+  "exportedAt": "2026-10-23T08:05:56.384Z",
+  "formattedTimeThai": "23/10/2569 15:05:56",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
@@ -15,7 +15,7 @@
     "totalSchedules": 1,
     "totalBills": 0,
     "totalAttendance": 0,
-    "totalOnlineClassrooms": 1,
+    "totalOnlineClassrooms": 0,
     "totalRevenuePaid": 0,
     "rolesCount": 7
   },
@@ -1667,61 +1667,30 @@
         "autoIssueOnPayoutApproved": true
       }
     },
-    "onlineClassrooms": [
+    "onlineClassrooms": [],
+    "classroomDeletionLogs": [
       {
-        "id": "online-room-1792742653945",
+        "id": "del-log-1792742753867",
+        "classroomId": "online-room-1792742653945",
         "subjectName": "ทดสอบ",
         "topic": "แคลคูลัส: อนุพันธ์และการประยุกต์โจทย์ระดับยาก",
         "roomCode": "TH-7887",
-        "passcode": "8924",
-        "courseId": "course-1791654085755",
-        "tutorId": "user-tutor-1791654206251",
         "tutorName": "นางสาวสิตานันท์",
-        "tutorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
-        "studentIds": [
-          "user-student-1",
-          "user-student-1791654463233"
-        ],
         "studentNames": [
           "KANCHAI (KCPB)",
           "นักเรียน (เริ่มต้น) (น้องเรียนดี)"
         ],
         "date": "2026-10-23",
-        "startTime": "15:05",
-        "endTime": "15:15",
-        "status": "live",
-        "createdAt": "2026-10-23T08:04:13.945Z",
-        "isTutorOnline": false,
-        "activeStudentIds": [],
-        "whiteboardNotes": "📌 สรุปสาระสำคัญประจำคาบเรียน:\n• วิชา: ทดสอบ\n• หัวข้อ: แคลคูลัส: อนุพันธ์และการประยุกต์โจทย์ระดับยาก\n• ผู้สอน: นางสาวสิตานันท์\n• วันที่สอน: 2026-10-23 (15:05 - 15:15 น.)",
-        "securityNotice": "🔒 นโยบายควบคุมคุณภาพสถาบัน: ห้องเรียนออนไลน์นี้อยู่ภายใต้การกำกับดูแลของฝ่ายบริหารสถาบัน ห้ามแลกเปลี่ยนเบอร์โทรศัพท์/Line ID หรือติดต่อส่วนตัว การเลื่อนคลาสต้องดำเนินการผ่านสถาบันเท่านั้น",
-        "chatMessages": [
-          {
-            "id": "sys-1792742653945",
-            "senderId": "system",
-            "senderName": "ระบบบริหารสถาบัน TutorHub",
-            "senderRole": "admin",
-            "message": "เปิดห้องเรียนออนไลน์วิชา ทดสอบ รหัสห้อง: TH-7887 รหัสผ่าน: 8924",
-            "timestamp": "15:04 น.",
-            "isSystem": true
-          }
-        ],
-        "sharedFiles": [],
-        "participantStates": [
-          {
-            "userId": "user-admin-1",
-            "userName": "ครูสุชพิชชานันท์ ทองอินทร์",
-            "userRole": "admin",
-            "isOnline": false,
-            "joinedAt": "15:04 น.",
-            "isMicOn": false,
-            "isVideoOn": true,
-            "isHandRaised": false
-          }
-        ]
+        "timeRange": "15:05 - 15:15 น.",
+        "deletedAt": "23/10/2569 15:05:53",
+        "deletedBy": "ครูสุชพิชชานันท์ ทองอินทร์ (เจ้าของสถาบัน/ฝ่ายบริหาร)",
+        "reason": "สอนเสร็จสมบูรณ์ - เจ้าของสถาบันลบและทำลายห้องเรียนออนไลน์ทันที เพื่อควบคุมคุณภาพการเรียนการสอน และป้องกันไม่ให้ครูผู้สอนติดต่อผู้ปกครองเพื่อเลื่อนคลาสเรียนหรือขายคลาสเรียนเอง",
+        "auditVerificationCode": "SEC-AUDIT-2026-TH7887-3867",
+        "securityHash": "SHA256:7f9b32562ffde4c82a1d3f6e",
+        "durationMinutes": 15,
+        "sessionStatusAtDeletion": "กำลังสอน (ยุติและทำลายทันที)"
       }
     ],
-    "classroomDeletionLogs": [],
     "oneOnOneSessions": [],
     "tabStatuses": {
       "overview": {
