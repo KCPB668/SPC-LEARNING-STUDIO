@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-23T13:40:49.191Z",
-  "formattedTimeThai": "23/10/2569 20:40:49",
+  "exportedAt": "2026-10-23T13:41:38.384Z",
+  "formattedTimeThai": "23/10/2569 20:41:38",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
@@ -1716,9 +1716,11 @@
             "userRole": "admin",
             "isOnline": true,
             "joinedAt": "20:40 น.",
-            "isMicOn": true,
-            "isVideoOn": true,
-            "isHandRaised": false
+            "isMicOn": false,
+            "isVideoOn": false,
+            "isHandRaised": false,
+            "liveFrame": "",
+            "audioLevel": 0
           }
         ]
       }
