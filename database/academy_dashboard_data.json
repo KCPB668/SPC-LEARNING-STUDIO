@@ -2,8 +2,8 @@
   "system": "TutorHub Academy Management System",
   "academyName": "SPC Learning Center Studio",
   "version": "2.0.0",
-  "exportedAt": "2026-10-23T13:42:02.118Z",
-  "formattedTimeThai": "23/10/2569 20:42:02",
+  "exportedAt": "2026-10-23T13:42:11.945Z",
+  "formattedTimeThai": "23/10/2569 20:42:11",
   "exportedBy": {
     "id": "user-admin-1",
     "fullName": "ครูสุชพิชชานันท์ ทองอินทร์",
@@ -15,7 +15,7 @@
     "totalSchedules": 1,
     "totalBills": 0,
     "totalAttendance": 0,
-    "totalOnlineClassrooms": 1,
+    "totalOnlineClassrooms": 0,
     "totalRevenuePaid": 0,
     "rolesCount": 7
   },
@@ -1667,63 +1667,29 @@
         "autoIssueOnPayoutApproved": true
       }
     },
-    "onlineClassrooms": [
+    "onlineClassrooms": [],
+    "classroomDeletionLogs": [
       {
-        "id": "online-room-1792762827081",
+        "id": "del-log-1792762929938",
+        "classroomId": "online-room-1792762827081",
         "subjectName": "อังกฤษ ม.3",
         "topic": "แคลคูลัส: อนุพันธ์และการประยุกต์โจทย์ระดับยาก",
         "roomCode": "TH-7115",
-        "passcode": "8924",
-        "courseId": "course-1791654085755",
-        "tutorId": "user-tutor-1791654206251",
         "tutorName": "นางสาวสิตานันท์",
-        "tutorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
-        "studentIds": [
-          "user-student-1",
-          "user-student-1791654463233"
-        ],
         "studentNames": [
           "KANCHAI (KCPB)",
           "นักเรียน (เริ่มต้น) (น้องเรียนดี)"
         ],
         "date": "2026-10-23",
-        "startTime": "20:41",
-        "endTime": "20:45",
-        "status": "live",
-        "createdAt": "2026-10-23T13:40:27.081Z",
-        "isTutorOnline": false,
-        "activeStudentIds": [],
-        "whiteboardNotes": "📌 สรุปสาระสำคัญประจำคาบเรียน:\n• วิชา: อังกฤษ ม.3\n• หัวข้อ: แคลคูลัส: อนุพันธ์และการประยุกต์โจทย์ระดับยาก\n• ผู้สอน: นางสาวสิตานันท์\n• วันที่สอน: 2026-10-23 (20:41 - 20:45 น.)",
-        "securityNotice": "🔒 นโยบายควบคุมคุณภาพสถาบัน: ห้องเรียนออนไลน์นี้อยู่ภายใต้การกำกับดูแลของฝ่ายบริหารสถาบัน ห้ามแลกเปลี่ยนเบอร์โทรศัพท์/Line ID หรือติดต่อส่วนตัว การเลื่อนคลาสต้องดำเนินการผ่านสถาบันเท่านั้น",
-        "chatMessages": [
-          {
-            "id": "sys-1792762827081",
-            "senderId": "system",
-            "senderName": "ระบบบริหารสถาบัน TutorHub",
-            "senderRole": "admin",
-            "message": "เปิดห้องเรียนออนไลน์วิชา อังกฤษ ม.3 รหัสห้อง: TH-7115 รหัสผ่าน: 8924",
-            "timestamp": "20:40 น.",
-            "isSystem": true
-          }
-        ],
-        "sharedFiles": [],
-        "participantStates": [
-          {
-            "userId": "user-admin-1",
-            "userName": "ครูสุชพิชชานันท์ ทองอินทร์",
-            "userRole": "admin",
-            "isOnline": false,
-            "joinedAt": "20:40 น.",
-            "isMicOn": false,
-            "isVideoOn": false,
-            "isHandRaised": false,
-            "liveFrame": "",
-            "audioLevel": 0
-          }
-        ]
-      }
-    ],
-    "classroomDeletionLogs": [
+        "timeRange": "20:41 - 20:45 น.",
+        "deletedAt": "23/10/2569 20:42:09",
+        "deletedBy": "ครูสุชพิชชานันท์ ทองอินทร์ (เจ้าของสถาบัน/ฝ่ายบริหาร)",
+        "reason": "สอนเสร็จสมบูรณ์ - เจ้าของสถาบันลบและทำลายห้องเรียนออนไลน์ทันที เพื่อควบคุมคุณภาพการเรียนการสอน และป้องกันไม่ให้ครูผู้สอนติดต่อผู้ปกครองเพื่อเลื่อนคลาสเรียนหรือขายคลาสเรียนเอง",
+        "auditVerificationCode": "SEC-AUDIT-2026-TH7115-9938",
+        "securityHash": "SHA256:7f9b01076f37e4c82a1d3f6e",
+        "durationMinutes": 15,
+        "sessionStatusAtDeletion": "กำลังสอน (ยุติและทำลายทันที)"
+      },
       {
         "id": "del-log-1792742753867",
         "classroomId": "online-room-1792742653945",
